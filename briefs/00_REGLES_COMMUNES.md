@@ -27,6 +27,7 @@ IDENAT **modifie le regard clinique du soignant** ; elle n'ajoute pas une pratiq
 
 ## Positionnement (aligné carto V8) — ne pas sur-revendiquer
 IDENAT est la **continuation directe du DUMENAT** (source = Pr Cornillot / DUMENAT / Bobigny, 1982). « Maison mère » = place **à prendre**, pas un titre acquis : on **énonce l'origine, on ne la plaide pas**. Garder l'**interruption de 2013** visible (honnêteté = crédibilité).
+**Nom Cornillot** : citation **brève et factuelle** (le fondateur), jamais une figure tutélaire ; le visible s'ancre sur le **DUMENAT / Bobigny**. Fondateurs et sigle = **une seule version sourcée** à verrouiller avec IDENAT avant publication (risque bloquant R7) ; dire « la filière naturothérapie du DUMENAT », pas « le DUMENAT » tout court.
 
 ## Données que SEUL IDENAT confirme (ne jamais inventer)
 Volume horaire (432 h ?) · Qualiopi + n° · statut ODPC / financement (FIF-PL, FAF-PM) · dates de session · coût · voie d'inscription · titres + n° d'ordre des formateurs · dates de filiation · développé exact du sigle DUMENAT · archive DUMENAT.

@@ -8,7 +8,7 @@ Convertir la méfiance en confiance : **prouver la filiation** (l'actif n°1 d'I
 ## Architecture
 
 **1. L'origine** *(long et précis, pas d'hagiographie)*
-DUMENAT, Pr Cornillot, Faculté de médecine de Bobigny / Paris 13, 1982, fondateurs nommés. Récit **factuel**. Principal actif de différenciation → on lui donne de la place. **Garder l'interruption de 2013.** IDENAT = **continuation directe** (pas « la source » : la source est Cornillot/DUMENAT).
+Ancrer sur **le DUMENAT et la Faculté de médecine de Bobigny / Paris 13 (1982)** : c'est ça le capital, pas un homme. **Citer le Pr Cornillot une seule fois, brièvement** (doyen fondateur), jamais en figure tutélaire. **Généalogie découplée** : 1981 (Passebecq/Féjan) ≠ 1982 (DUMENAT, Cornillot) — ne pas tout lui attribuer. Dire **« la filière naturothérapie du DUMENAT »**, pas « le DUMENAT » tout court (c'était un parapluie : homéo, acupuncture, ostéo…). Récit **factuel**, principal actif de différenciation → on lui donne de la place. **Garder l'interruption de 2013.** IDENAT = **continuation directe** (la source = Cornillot/DUMENAT, pas IDENAT).
 
 **2. Le cadre légal et académique** *(le bloc qui répond au vérificateur)*
 Statut de l'enseignement et du diplôme, Qualiopi, **distinction exercice / enseignement** (L.4161-1 : on enseigne à des soignants, on ne se substitue pas au soin). Répond **proactivement** aux alertes « dérive » / « commerce déguisé ». *(contenu à confirmer IDENAT)*
@@ -31,8 +31,8 @@ Un seul `<h1>`, expression clé définie · WebP + lazy-load · schema Education
 ## À éviter
 Timeline décorative à icônes · listes « nos valeurs » · photos de bâtiments génériques.
 
-## Dépend d'IDENAT
-Dates exactes (fin DUMENAT universitaire, reprise IDENAT) · statut du diplôme · Qualiopi · **développé exact du sigle DUMENAT** (Diplôme vs Département — sources divergentes en interne) · archive disponible + source.
+## Dépend d'IDENAT *(risque bloquant R7 — rien de visible avant verrouillage)*
+Dates exactes (fin DUMENAT universitaire, reprise IDENAT) · statut du diplôme · Qualiopi · **version sourcée UNIQUE des fondateurs** (nos supports se contredisent : Cornillot seul / Passebecq-Féjan / 7 noms) · **développé exact du sigle DUMENAT** (sourcé *Le Monde* 2018 = « Département Universitaire des Médecines Naturelles ») · **prénom de Cornillot** (« Pierre », à confirmer) · archive disponible + source.
 
 ## Méthode
 Brouillon **1732** → restructurer en 4 blocs → remettre au QG. Snapshot JetBackup avant. **Ne pas publier** (hors SCOPE).
