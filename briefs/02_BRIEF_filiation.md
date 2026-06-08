@@ -1,39 +1,38 @@
-# Brief 02 — Page Filiation — CRÉER
+# Brief 02 — Filiation / « Qui nous sommes » — REFONTE (créer, base 1732)
 
-> Un brouillon existe déjà : **id 1732** (« Filiation – brouillon »), bonne base (monument « 1982 », chronologie). **Le compléter et le corriger.** Lire d'abord `00_REGLES_COMMUNES.md`.
+> **Page la plus importante pour le profil C** (le vérificateur), la plus sous-exploitée. Repart du brouillon **1732**. Lire `00_REGLES_COMMUNES` + `COMPORTEMENTS_PROFILS`. Style inchangé.
 
-## Objectif
-Donner à IDENAT sa légitimité de **source** : la filiation directe du DUMENAT (1982, Pr Cornillot, Faculté de médecine de Bobigny / Paris 13), la continuité sans rupture jusqu'à aujourd'hui. Le médecin comprend qu'IDENAT n'est pas « une école de plus » mais la continuation d'un enseignement universitaire.
+## Rôle
+Convertir la méfiance en confiance : **prouver la filiation** (l'actif n°1 d'IDENAT) et **le cadre légal**. Le profil C lit cette page AVANT la home.
 
-## Ce qu'on garde
-La structure du brouillon 1732 (sections : origine → fondation → transmission → présent), les couleurs IDENAT, le thème. On corrige le **texte** et on règle les **images**.
+## Architecture
 
-## Modifications / compléments
+**1. L'origine** *(long et précis, pas d'hagiographie)*
+DUMENAT, Pr Cornillot, Faculté de médecine de Bobigny / Paris 13, 1982, fondateurs nommés. Récit **factuel**. C'est le principal actif de différenciation → on lui donne de la place. **Garder l'interruption de 2013** (honnêteté = crédibilité).
 
-**1. Vocabulaire — uniformiser (conformité)**
-- Partout : **« en appui du suivi médical »**. Retirer les variantes « en complément du suivi médical », « pratique complémentaire ».
-- Supprimer **« jamais en substitution »** (absolu + antithèse) → la phrase s'arrête à « en appui du suivi médical ».
+**2. Le cadre légal et académique** *(le bloc qui répond au vérificateur)*
+Statut de l'enseignement et du diplôme délivré, Qualiopi, et la **distinction exercice / enseignement** (L.4161-1 : on enseigne à des soignants, on ne se substitue pas au soin). Répond **proactivement** aux alertes « dérive » / « commerce déguisé ». *(contenu à confirmer IDENAT)*
 
-**2. Tirets**
-Remplacer tous les tirets cadratin « — » du texte par virgule, point ou deux-points.
+**3. L'approche pédagogique** *(en résultats cliniques, pas en philosophie)*
+« À l'issue, le praticien intègre la lecture du terrain dans sa consultation, **en appui du suivi médical**. »
 
-**3. Posture**
-« n'est pas née d'une mode » (défensif) → affirmer sans se défendre : **« Elle prolonge un enseignement universitaire ouvert en 1982 à la Faculté de médecine de Bobigny. »**
+**4. Les conditions d'admission** *(formulées comme un privilège)*
+Les professions admises + la raison du filtre (pertinence clinique, déontologie). Le filtre **est** un signal de sérieux.
 
-**4. Chronologie — garder l'interruption explicite**
-1982 (création DUMENAT) → Octobre 2013 (sortie du cadre universitaire) → Aujourd'hui (IDENAT). Honnête et clair.
+## Vocabulaire / conformité
+« en appui du suivi médical » partout · retirer « jamais en substitution » et les tirets cadratin · sujet = école / soignant · zéro registre bien-être.
 
-**5. Image maîtresse**
-Le visuel principal ne doit pas rester le logo. Cible : **une vraie archive du DUMENAT** (photo Cornillot / amphi Bobigny / première promotion). **À demander à IDENAT.** En attendant, laisser le repère « archive à fournir » dans le brouillon, pas en ligne.
+## Image maîtresse
+Une **vraie archive du DUMENAT** (Cornillot / amphi Bobigny / 1ʳᵉ promotion), pas le logo. **À demander à IDENAT.**
 
-**6. SEO**
-Un seul `<h1>` sur la page. Définir l'expression clé principale (ex. « naturothérapie filiation DUMENAT »).
+## SEO
+Un seul `<h1>`. Expression clé définie.
 
-## Conformité
-Sujet = IDENAT / les soignants, jamais la discipline. Aucun « soigner / guérir / traiter ».
+## À éviter
+Timeline décorative à icônes · listes « nos valeurs » · photos de bâtiments génériques.
 
-## Dépend d'IDENAT (à confirmer)
-Année exacte de fin du DUMENAT universitaire et de reprise par IDENAT · intitulé exact du diplôme · archive disponible (+ source) · nombre d'anciens diplômés (si on le cite).
+## Dépend d'IDENAT
+Dates exactes (fin DUMENAT universitaire, reprise IDENAT) · statut du diplôme · Qualiopi · archive disponible + source.
 
 ## Méthode
-Repartir du brouillon **1732**, corriger, remettre l'id au QG. Ne pas publier.
+Brouillon **1732** → restructurer en 4 blocs → remettre au QG. Ne pas publier.

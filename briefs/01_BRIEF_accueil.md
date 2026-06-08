@@ -1,39 +1,56 @@
-# Brief 01 — Page d'accueil (id 31) — MODIFIER
+# Brief 01 — Accueil (id 31) — REFONTE DE L'EXPÉRIENCE
 
-> Un brouillon existe déjà : **id 1727** (« Accueil – brouillon SYNAMIEF »). Il a corrigé le tarif et retiré « soins intégratifs ». **Partir de ce brouillon**, le compléter. Lire d'abord `00_REGLES_COMMUNES.md`.
+> Repart du brouillon **1727**. Lire `00_REGLES_COMMUNES` + `COMPORTEMENTS_PROFILS`. On **ne change pas le style** : on réorganise les sections, la hiérarchie, les labels et les CTA dans le thème Divi existant. Profils servis : **A** (qualifier), **C** (rassurer), aiguiller **B** vers le Programme.
 
-## Objectif
-En haut de la page d'accueil, le médecin comprend tout de suite : **IDENAT est la source** (filiation DUMENAT 1982), **réservée aux soignants** ; puis la **distinction** naturothérapie / naturopathie ; puis **comment s'inscrire**. On retire tout le périmé et le non-conforme.
+## Le rôle de la home
+Pas une page de vente. Une page de **qualification et d'orientation**. Elle répond, dans l'ordre : « suis-je au bon endroit ? » → « est-ce sérieux ? » → « comment aller plus loin ? ». Tout pour le profil A en **30 s sur mobile**.
 
-## Ce qu'on garde
-Le thème, les couleurs, le slider et les blocs pictos existants, la FAQ, la section « formation naturopathie ou naturothérapie ». On change le **texte**, l'**ordre** et les **images**, pas la structure.
+## Architecture, section par section *(l'ordre EST l'ordre de captation)*
 
-## Modifications, bloc par bloc
+**1. HERO — le seul écran garanti lu**
+*Rôle : qualifier + rassurer en 5 s (profil A).*
+- Remplacer le slider rotatif par **un message fixe** (en Divi : réduire le slider à une slide, couper l'auto — pas de nouveau composant).
+- **H1** : l'identité clinique + la filiation, sans « naturopathie » isolée, couplé à 1982/DUMENAT *(copy à verrouiller QG)*.
+- **Sous-titre** : le filtre — « Réservé aux professionnels de santé diplômés d'État. »
+- **Signal temporel** visible : « Dans la filiation du DUMENAT, Faculté de médecine de Bobigny, depuis 1982. »
+- **Un seul CTA** : « Découvrir la formation » (jamais « Nous contacter » ni « En savoir plus »).
+- On retire d'ici : tarif, slogans multiples, images plantes. Image de fond éventuelle = **clinique**, pas herboristerie.
 
-**1. Bandeau / slider du haut**
-- Tarif : « Tarif réduit si inscription avant le 1er juin 2026 » (périmé + terme banni) → **« Tarif anticipé pour une inscription en amont de la rentrée. »**
-- « L'Institut IDENAT propose un enseignement d'une approche globale de la santé par des **soins intégratifs** » (terme banni) → **« L'Institut IDENAT enseigne aux soignants la lecture des facteurs de terrain, dans un cadre clinique, en appui du suivi médical. »**
-- Ajouter en tête la légitimité : **« Naturothérapie clinique, dans la filiation du DUMENAT — Faculté de médecine de Bobigny, depuis 1982. Réservée aux soignants diplômés d'État. »**
-- Réduire le slider à **1–2 messages forts** et désactiver la rotation automatique si possible (pour qu'on LISE la promesse, pas qu'elle défile).
+**2. BANDE DE LÉGITIMITÉ** *(juste sous le hero)*
+*Rôle : arrêter le profil C avant qu'il parte. Des faits, pas du texte.*
+- En Divi : une rangée de 3-4 faits (module Numéro/Compteur ou colonnes existantes) : « depuis 1982 », « X promotions formées », « 432 h » *(si confirmé)*, « Qualiopi » + n° *(si confirmé)*.
+- Un chiffre non confirmé = **on ne l'affiche pas**.
 
-**2. Bloc définition (« Qu'est-ce que la naturothérapie »)**
-- Avant : « La naturothérapie est une discipline dont le domaine d'intervention se situe dans la recherche… » *(la discipline est sujet → non conforme)*
-- Après : **« À IDENAT, les soignants apprennent à lire les déterminants du terrain chez le patient chronique, en appui du suivi médical. La naturothérapie s'adresse aux professionnels de santé ; la naturopathie, elle, à tout public. »**
+**3. LA DISTINCTION** *(rupture de catégorie, 3-5 lignes)*
+*Rôle : désamorcer « naturo = pas rigoureux » (profils A et C). Ton confiant, pas défensif.*
+- Sujet = l'école / le soignant : **« À IDENAT, des soignants apprennent à lire les déterminants du terrain, en appui du suivi médical. La naturothérapie s'adresse aux professionnels de santé ; la naturopathie, à tout public. »**
+- Le bloc « définition » actuel est **reformulé ici** (la discipline n'est plus sujet).
 
-**3. Lien sortant**
-Ne pas renvoyer le visiteur vers `a2n-naturotherapie.fr` en cœur de page. Le garder en bas / mentions si nécessaire.
+**4. APERÇU DU PROGRAMME** *(aiguillage profil B)*
+*Rôle : montrer la substance, envoyer au détail.*
+- Volume horaire total, 3-4 grands axes, format (présentiel Paris + visio), CTA **« Voir le programme complet »**.
+- Réutiliser les blurbs existants, **re-labellisés et réordonnés**.
 
-**4. Appel à l'action**
-Un CTA clair et visible en haut : **« Découvrir la formation »** + **« S'inscrire »**.
+**5. CORPS ENSEIGNANT (aperçu)**
+*Rôle : preuve d'autorité (profil C).* 3-5 formateurs : photo + nom + **titre exact prouvé**. Lien « Voir le corps enseignant ». Pas de bios longues.
 
-## Images (médiathèque existante)
-Pour le haut, privilégier une image clinique crédible déjà présente (`health-center-01-1.jpg`). **Éviter** `Naturotherapie.jpg` (huiles/plantes = registre herboristerie) en image principale.
+**6. PREUVE SOCIALE** *(si disponible)*
+*Rôle : validation par les pairs.* Témoignage de **médecin nommé** (nom, spécialité, lieu). Jamais anonyme, jamais « patient ». *(à confirmer + consentement)*
 
-## Conformité
-Voir règles communes. Vérifier après coup : zéro « soins intégratifs », « guérison », « tarif réduit » ; le sujet des phrases cliniques = l'école ou le soignant.
+**7. CTA FINAL**
+Un seul, répété : « Découvrir la formation » / « Demander le dossier ». Lien vers la page dédiée. **Pas de formulaire en pop-up.**
 
-## Dépend d'IDENAT (à confirmer avant publication)
-Échéance exacte du tarif anticipé · voie d'inscription · volume horaire (si on cite un chiffre).
+## Ce qu'on RETIRE de la home actuelle
+Slider rotatif · tarif « réduit » périmé · « soins intégratifs » · renvoi sortant vers A2N en cœur de page · bloc blog/actus · pictos décoratifs qui n'orientent pas.
+
+## Navigation (labels fonctionnels)
+« La formation · Le programme · Le corps enseignant · La filiation · S'inscrire ». Pas « Notre approche / Nos valeurs ».
+
+## Mobile / performance
+Hero lisible en 5 s (colonne gauche) · textes > 100 mots en accordéon · images WebP + lazy-load · pas de slider lourd.
+
+## Dépend d'IDENAT
+Chiffres (promotions, 432 h) · Qualiopi + n° · témoignage médecin nommé + consentement · copy du H1.
 
 ## Méthode
-Repartir du brouillon **1727**, appliquer les modifs, remettre l'id au QG. Ne pas publier.
+Brouillon **1727** → réorganiser les sections → remettre au QG. Ne pas publier.

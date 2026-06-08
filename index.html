@@ -42,10 +42,12 @@
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script>
   const briefs = [
-    {id:'regles',   t:'Règles communes', f:'briefs/00_REGLES_COMMUNES.md'},
-    {id:'accueil',  t:'Accueil',         f:'briefs/01_BRIEF_accueil.md'},
-    {id:'filiation',t:'Filiation',       f:'briefs/02_BRIEF_filiation.md'},
-    {id:'equipe',   t:'Équipe pédago.',  f:'briefs/03_BRIEF_equipe_pedagogique.md'},
+    {id:'profils',  t:'Profils & comportements', f:'briefs/COMPORTEMENTS_PROFILS.md'},
+    {id:'regles',   t:'Règles communes',         f:'briefs/00_REGLES_COMMUNES.md'},
+    {id:'accueil',  t:'Accueil',                 f:'briefs/01_BRIEF_accueil.md'},
+    {id:'equipe',   t:'Corps enseignant',        f:'briefs/03_BRIEF_equipe_pedagogique.md'},
+    {id:'programme',t:'Programme & inscription',  f:'briefs/04_BRIEF_programme_inscription.md'},
+    {id:'filiation',t:'Filiation',               f:'briefs/02_BRIEF_filiation.md'},
   ];
   const nav = document.getElementById('nav');
   briefs.forEach(b=>{const a=document.createElement('a');a.href='#'+b.id;a.textContent=b.t;nav.appendChild(a);});
