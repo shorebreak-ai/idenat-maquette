@@ -26,6 +26,9 @@
   .md ul,.md ol{padding-left:1.25em}
   .md li{margin:.25em 0}
   .md a{color:var(--teal)}
+  .md table{border-collapse:collapse;width:100%;font-size:.8rem;margin:1em 0;display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .md th,.md td{border:1px solid var(--line);padding:5px 7px;text-align:left;vertical-align:top}
+  .md th{background:#f0f1ec;white-space:nowrap}
   .loading{color:var(--mut);font-size:.9rem;padding:20px 0}
   footer{max-width:780px;margin:0 auto;padding:0 18px 40px;color:var(--mut);font-size:.78rem}
 </style>
@@ -44,10 +47,16 @@
   const briefs = [
     {id:'profils',  t:'Profils & comportements', f:'briefs/COMPORTEMENTS_PROFILS.md'},
     {id:'regles',   t:'Règles communes',         f:'briefs/00_REGLES_COMMUNES.md'},
+    {id:'carto',    t:'Cartographie du site',    f:'briefs/00b_CARTOGRAPHIE_SITE.md'},
     {id:'accueil',  t:'Accueil',                 f:'briefs/01_BRIEF_accueil.md'},
-    {id:'equipe',   t:'Corps enseignant',        f:'briefs/03_BRIEF_equipe_pedagogique.md'},
-    {id:'programme',t:'Programme & inscription',  f:'briefs/04_BRIEF_programme_inscription.md'},
+    {id:'naturo',   t:'Naturothérapie',          f:'briefs/05_BRIEF_naturotherapie.md'},
     {id:'filiation',t:'Filiation',               f:'briefs/02_BRIEF_filiation.md'},
+    {id:'formation',t:'Formation (3 ans)',       f:'briefs/06_BRIEF_formation_3ans.md'},
+    {id:'programme',t:'Programme & inscription',  f:'briefs/04_BRIEF_programme_inscription.md'},
+    {id:'equipe',   t:'Corps enseignant',        f:'briefs/03_BRIEF_equipe_pedagogique.md'},
+    {id:'master',   t:'Master Classe',           f:'briefs/07_BRIEF_master_classe.md'},
+    {id:'blog',     t:'Blog',                    f:'briefs/08_BRIEF_blog.md'},
+    {id:'contact',  t:'Contact & mentions',      f:'briefs/09_BRIEF_contact_mentions.md'},
   ];
   const nav = document.getElementById('nav');
   briefs.forEach(b=>{const a=document.createElement('a');a.href='#'+b.id;a.textContent=b.t;nav.appendChild(a);});
