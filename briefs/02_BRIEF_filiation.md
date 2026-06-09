@@ -1,38 +1,20 @@
-# Brief 02 — Filiation / « Qui nous sommes » — REFONTE (créer, base 1732)
+# Brief 02 — Filiation / « Qui nous sommes » (créer · brouillon 1732)
 
-> **Page la plus importante pour le profil C** (le vérificateur), la plus sous-exploitée. Repart du brouillon **1732**. Lire `00_REGLES_COMMUNES` + `COMPORTEMENTS_PROFILS`. Style inchangé. **Zone éditoriale : Zone 2** (grand public, L.121-2). **Hors SCOPE E-130 actuel : brouillon non publié tant que le SCOPE n'est pas élargi** (une page publiée = 12ᵉ URL indexée à valider).
+> **Page à créer (brouillon 1732).** Son contenu = le **récit d'origine aujourd'hui sur la page 182**, repris et corrigé. Ci-dessous **uniquement ce qui change** par rapport à ce récit live. Règles transverses : `00_REGLES_COMMUNES`. Zone 2. **Hors SCOPE E-130 : brouillon non publié tant que le SCOPE n'est pas élargi** (une page publiée = nouvelle URL indexée).
 
-## Rôle
-Convertir la méfiance en confiance : **prouver la filiation** (l'actif n°1 d'IDENAT) et **le cadre légal**. Le profil C lit cette page AVANT la home. Le WHY à faire passer : la lignée n'est pas un souvenir, c'est **ce qui autorise IDENAT à parler depuis l'intérieur de la médecine** (le second regard, hérité du DUMENAT).
+## Modifier *(récit d'origine live → cible)*
+- « En 1982, sous l'impulsion du professeur Cornillot et de [7 noms] » → ancrer sur **le DUMENAT / Faculté de médecine de Bobigny (Paris 13), 1982** ; **généalogie découplée** : 1981 (Passebecq / Féjan) ≠ 1982 (Cornillot) — ne pas tout lui attribuer ; **une seule version sourcée** des fondateurs (à verrouiller IDENAT, R7).
+- Sigle / « Diplôme de Médecine Naturelle » → « **Département Universitaire des Médecines Naturelles** » (*Le Monde* 2018) ; dire « **la filière naturothérapie du DUMENAT** » (pas « le DUMENAT » seul).
+- « ce cursus est **sorti du cadre universitaire** » → « **fermé en 2013 par la faculté** » (garder l'interruption visible = crédibilité).
+- Pr Cornillot cité **une seule fois, brièvement** (doyen fondateur), jamais en figure tutélaire.
 
-## Architecture
+## Ajouter *(absent du récit actuel)*
+- **Bloc cadre légal et académique** : statut du diplôme, Qualiopi, **enseigner ≠ exercer** (L.4161-1) — répond proactivement aux soupçons « dérive / commerce déguisé ».
+- **Conditions d'admission + contraste factuel** : un cursus de trois ans réservé aux soignants diplômés d'État, sur la lignée clinique du DUMENAT — **sans nommer ni dénigrer de concurrent**.
+- **Image maîtresse** : une **vraie archive du DUMENAT** (Cornillot / amphi Bobigny / 1ʳᵉ promotion), pas le logo. **À demander à IDENAT.**
 
-**1. L'origine** *(long et précis, pas d'hagiographie)*
-Ancrer sur **le DUMENAT et la Faculté de médecine de Bobigny / Paris 13 (1982)** : c'est ça le capital, pas un homme. **Citer le Pr Cornillot une seule fois, brièvement** (doyen fondateur), jamais en figure tutélaire. **Généalogie découplée** : 1981 (Passebecq/Féjan) ≠ 1982 (DUMENAT, Cornillot) — ne pas tout lui attribuer. Dire **« la filière naturothérapie du DUMENAT »**, pas « le DUMENAT » tout court (c'était un parapluie : homéo, acupuncture, ostéo…). Récit **factuel**, principal actif de différenciation → on lui donne de la place. **Garder l'interruption de 2013.** IDENAT = **continuation directe** (la source = Cornillot/DUMENAT, pas IDENAT).
+## Conformité
+« en appui du suivi médical » · pas de « patient » · zéro registre bien-être · sujet = école / soignant.
 
-**2. Le cadre légal et académique** *(le bloc qui répond au vérificateur)*
-Statut de l'enseignement et du diplôme, Qualiopi, **distinction exercice / enseignement** (L.4161-1 : on enseigne à des soignants, on ne se substitue pas au soin). Répond **proactivement** aux alertes « dérive » / « commerce déguisé ». *(contenu à confirmer IDENAT)*
-
-**3. L'approche pédagogique** *(en résultats cliniques, pas en philosophie)*
-« À l'issue, le praticien intègre la lecture du terrain dans sa consultation, **en appui du suivi médical**. »
-
-**4. Conditions d'admission + contraste factuel** *(formulées comme un privilège)*
-Professions admises + raison du filtre (pertinence clinique, déontologie) — le filtre **est** un signal de sérieux. **Rendre la singularité lisible par un fait, sans nommer ni dénigrer de concurrent** : un cursus de trois ans réservé aux soignants diplômés d'État, sur la lignée clinique du DUMENAT (là où les formations généralistes sont ouvertes à tous et plus courtes).
-
-## Vocabulaire / conformité
-« en appui du suivi médical » partout · retirer « jamais en substitution » et les tirets cadratin · sujet = école / soignant · zéro registre bien-être · pas de « patient ».
-
-## Image maîtresse
-Une **vraie archive du DUMENAT** (Cornillot / amphi Bobigny / 1ʳᵉ promotion), pas le logo. **À demander à IDENAT.**
-
-## SEO / perf / schema
-Un seul `<h1>`, expression clé définie · WebP + lazy-load · schema EducationalOrganization · PageSpeed mobile après modif.
-
-## À éviter
-Timeline décorative à icônes · listes « nos valeurs » · photos de bâtiments génériques.
-
-## Dépend d'IDENAT *(risque bloquant R7 — rien de visible avant verrouillage)*
-Dates exactes (fin DUMENAT universitaire, reprise IDENAT) · statut du diplôme · Qualiopi · **version sourcée UNIQUE des fondateurs** (nos supports se contredisent : Cornillot seul / Passebecq-Féjan / 7 noms) · **développé exact du sigle DUMENAT** (sourcé *Le Monde* 2018 = « Département Universitaire des Médecines Naturelles ») · **prénom de Cornillot** (« Pierre », à confirmer) · archive disponible + source.
-
-## Méthode
-Brouillon **1732** → restructurer en 4 blocs → remettre au QG. Snapshot JetBackup avant. **Ne pas publier** (hors SCOPE).
+## À confirmer (IDENAT) *(R7 — rien de visible avant verrouillage)*
+Dates (fin DUMENAT fac, reprise IDENAT) · statut du diplôme · Qualiopi · **version sourcée unique des fondateurs** · **développé exact du sigle** · prénom Cornillot (« Pierre » ?) · archive + source.

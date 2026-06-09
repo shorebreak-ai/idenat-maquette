@@ -1,26 +1,31 @@
-# Brief 09 — Contact (211) + Mentions légales & confidentialité (209) — AJUSTEMENT
+# Brief 09 — Contact (id 211) + Mentions légales & confidentialité (id 209)
 
-> **Deux pages utilitaires.** Pas de refonte d'expérience : **conformité, RGPD, et un minimum de soin**. Lire `00_REGLES_COMMUNES`. **Zone 2** pour Contact ; page légale pour 209. **Dans le SCOPE E-130.**
+> **Base = les deux pages actuelles (live 211 / 209).** Ci-dessous **uniquement ce qui change** — conformité et RGPD, pas de refonte d'expérience. Règles transverses : `00_REGLES_COMMUNES`. **Dans le SCOPE E-130.**
 
-## Page CONTACT (id 211)
-Aujourd'hui : un formulaire nu + un numéro de téléphone. C'est mince et ça mélange deux intentions.
-- **Séparer contact générique et candidature.** Un soignant prêt à s'engager ne doit **pas** atterrir ici : la candidature passe par la page Inscription (brief 04). Contact = questions, presse, partenaires.
-- **Donner un visage** : interlocuteur nommé (prénom + email) + **délai de réponse** annoncé. Pas de boîte anonyme.
-- **Formulaire minimal** : nom · email · objet · message. Pas de champ inutile, pas de pop-up.
-- **Mention RGPD** sous le formulaire : finalité (« vous recontacter »), pas de réutilisation, droit d'accès/suppression. Aujourd'hui **absente** sur cette page alors qu'elle collecte des données.
-- **Conformité** : aucun claim clinique, aucune promesse. Sujet = l'école.
-- **Vérifier le plugin de formulaire déjà actif** (CF7 / Gravity…) — **pas de nouveau plugin sans validation QG**.
+## CONTACT (211)
+**Modifier**
+- Séparer **contact générique** et **candidature** : un soignant prêt à s'engager va vers Inscription (brief 04), **pas ici**. Contact = questions / presse / partenaires.
+- Formulaire : nom · email · objet · message. **Pas de pop-up.**
 
-## Page MENTIONS LÉGALES + CONFIDENTIALITÉ (id 209)
-Faible enjeu design, **vrai enjeu blindage**. Ne pas refondre, **fiabiliser**.
-- **Garder les faits légaux** (preuve de sérieux d'un organisme de formation) : SIRET `80179195500017`, **n° de déclaration d'activité `11755192775`** (à laisser visible), adresse, responsable de publication.
-- **Clarifier IDENAT / A2N** : qui est l'éditeur, qui assure l'hébergement administratif. La confusion éditeur/association est exploitable (red-team) — une phrase nette suffit.
-- **RGPD à étendre aux nouveaux usages** : les refontes ajoutent des collectes (candidature, **photos + bios des formateurs**, contact). La politique doit couvrir **finalité, durée de conservation, droit de retrait** — surtout pour le **consentement image des formateurs** (lié au brief 03).
-- **DPC** : **ne rien afficher** tant qu'IDENAT n'est pas organisme de DPC (ODPC). **Qualiopi** : mention + logo **seulement si** la certification est obtenue (sinon, rien).
-- **Ne pas casser le slug** `/politique-de-confidentialite/` (URL canonique indexée, E-130).
+**Ajouter**
+- **Interlocuteur nommé** (prénom + email) + **délai de réponse** annoncé.
+- **Mention RGPD** sous le formulaire (finalité « vous recontacter », droit d'accès / suppression) — **absente aujourd'hui** alors que la page collecte des données.
 
-## Dépend d'IDENAT
-Interlocuteur nommé pour le contact · statut juridique éditeur/A2N · périmètre RGPD à jour (candidature, photos formateurs) · statuts Qualiopi / ODPC.
+**Garde-fou** : vérifier le plugin de formulaire existant — pas de nouveau plugin sans QG.
 
-## Méthode
-Dupliquer **211** et **209** en brouillons → ajuster → remettre au QG. Snapshot JetBackup avant. **Pages légales : aucune mention inventée — uniquement ce qu'IDENAT confirme.**
+## MENTIONS LÉGALES + CONFIDENTIALITÉ (209)
+*Fiabiliser, ne pas refondre.*
+
+**Garder** : SIRET `80179195500017` · **n° déclaration activité `11755192775`** (preuve de sérieux, à laisser visible) · adresse · responsable de publication.
+
+**Modifier / Ajouter**
+- **Clarifier éditeur IDENAT / hébergement administratif A2N** (1 phrase nette — la confusion est exploitable).
+- **Étendre la politique RGPD aux nouveaux usages** : candidature, **consentement image + bio des formateurs** (finalité, durée de conservation, droit de retrait — lié au brief 03).
+
+**Interdit**
+- **Ne rien afficher sur « DPC »** (IDENAT non ODPC). **Qualiopi** : mention + logo **seulement si** obtenu.
+
+**Garde-fou** : ne pas changer le slug `/politique-de-confidentialite/` (URL canonique indexée).
+
+## À confirmer (IDENAT)
+Interlocuteur contact · statut juridique éditeur / A2N · périmètre RGPD à jour · statuts Qualiopi / ODPC.
