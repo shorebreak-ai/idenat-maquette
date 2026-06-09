@@ -6,7 +6,7 @@
 *Rôle : répondre à TOUTES les questions avant de demander quoi que ce soit.*
 
 **Bloc « Informations pratiques », visible sans scroll :**
-- Durée totale + volume horaire (décomposé présentiel / visio) *(432 h à confirmer)*.
+- Durée totale + volume horaire (décomposé présentiel / visio) : **480 h**.
 - Format + lieu (Paris) + visio en direct.
 - Prochaines dates de session (même approximatives : « automne 2026 »).
 - Coût total + modalités de paiement.

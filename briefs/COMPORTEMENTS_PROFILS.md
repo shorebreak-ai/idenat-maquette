@@ -35,10 +35,10 @@ Arrive par SEO « formation naturothérapie ». **À décevoir vite, avec élég
 5. **Vérification hors site** — il google. Le site doit fournir le **vérifiable**.
 
 ## Signaux de confiance, par impact décroissant
-Titres des formateurs **>** filiation universitaire **>** conditions d'admission strictes **>** Qualiopi **>** programme détaillé en compétences **>** témoignages de médecins nommés **>** chiffres (1982, 432 h *(si confirmé IDENAT)*, X promotions).
+Titres des formateurs **>** filiation universitaire **>** conditions d'admission strictes **>** Qualiopi **>** programme détaillé en compétences **>** témoignages de médecins nommés **>** chiffres (1982, 480 h, X promotions).
 
 ## Ce qui fait fuir (toutes pages)
 Registre bien-être ; photos stock nature ; témoignages anonymes ; formateurs sans titre ; cadre légal absent ; « nous contacter » comme seul accès à l'info ; lenteur mobile ; nav où on ne trouve pas « Programme » en 3 clics ; slider en hero.
 
 ## Règle transverse
-**La preuve précède la promesse.** « Depuis 1982 » avant « pionnière ». « 432 h » *(si confirmé)* avant « complète ». Le fait ancre ; un signal de confiance se place **avant le milieu de page**, jamais en footer.
+**La preuve précède la promesse.** « Depuis 1982 » avant « pionnière ». « 480 h » avant « complète ». Le fait ancre ; un signal de confiance se place **avant le milieu de page**, jamais en footer.

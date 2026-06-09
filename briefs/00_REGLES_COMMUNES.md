@@ -7,6 +7,7 @@
 - **Refonte ≠ relooking et ≠ retouche de texte.** On change la **manière dont chaque page travaille** pour les 4 profils.
 - **Méthode : brouillon uniquement.** Dupliquer la page (`./wp.sh duplicate <id>`), restructurer le brouillon, remettre l'id au QG. **Publication = QG.**
 - Échéance : avant le congrès (12 juin). Priorité **structure + conformité**.
+- **Fait confirmé (affichable) : 480 h de formation.**
 
 ## L'angle identitaire (le WHY, à incarner partout sans le nommer en slogan)
 IDENAT **modifie le regard clinique du soignant** ; elle n'ajoute pas une pratique de plus. C'est le **second regard clinique** (signature V8, à verrouiller au QG). Chaque page doit le faire ressentir dans sa fonction. Résultat attendu : le visiteur comprend qu'IDENAT change une **façon de lire** le terrain, pas qu'elle vend une méthode. Sans cet angle, le site est conforme mais générique.
@@ -30,7 +31,7 @@ IDENAT est la **continuation directe du DUMENAT** (source = Pr Cornillot / DUMEN
 **Nom Cornillot** : citation **brève et factuelle** (le fondateur), jamais une figure tutélaire ; le visible s'ancre sur le **DUMENAT / Bobigny**. Fondateurs et sigle = **une seule version sourcée** à verrouiller avec IDENAT avant publication (risque bloquant R7) ; dire « la filière naturothérapie du DUMENAT », pas « le DUMENAT » tout court.
 
 ## Données que SEUL IDENAT confirme (ne jamais inventer)
-Volume horaire (432 h ?) · Qualiopi + n° · statut ODPC / financement (FIF-PL, FAF-PM) · dates de session · coût · voie d'inscription · titres + n° d'ordre des formateurs · dates de filiation · développé exact du sigle DUMENAT · archive DUMENAT.
+Qualiopi + n° · statut ODPC / financement (FIF-PL, FAF-PM) · dates de session · coût · voie d'inscription · titres + n° d'ordre des formateurs · dates de filiation · développé exact du sigle DUMENAT · archive DUMENAT.
 → Donnée non confirmée = **repère « à confirmer » dans le brouillon, jamais en ligne**.
 
 ## Garde-fous techniques (audit E-130) — à respecter sur chaque page

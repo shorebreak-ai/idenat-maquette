@@ -18,7 +18,7 @@ Page de **qualification et d'orientation**, pas de vente. Elle répond, dans l'o
 
 **2. BANDE DE LÉGITIMITÉ** *(juste sous le hero)*
 *Rôle : donner au vérificateur (profil C) les faits qui lui suffisent. Des faits, pas du texte.*
-- Rangée de 3-4 faits (module Numéro/colonnes Divi) : « depuis 1982 », « X promotions formées », « 432 h » *(si confirmé)*, « Qualiopi » + n° *(si confirmé)*.
+- Rangée de 3-4 faits (module Numéro/colonnes Divi) : « depuis 1982 », « X promotions formées », « 480 h », « Qualiopi » + n° *(si confirmé)*.
 - Chiffre non confirmé = **on ne l'affiche pas**.
 
 **3. LA DISTINCTION** *(3-5 lignes)*
@@ -52,7 +52,7 @@ Un **encart événementiel SYNAMIEF (12 juin)** sur la home (texte validé Sabri
 Hero lisible en 5 s · textes > 100 mots en accordéon · images WebP + lazy-load · pas de slider lourd · vérifier PageSpeed mobile après (≥ 85, LCP < 2,5 s).
 
 ## Dépend d'IDENAT
-Chiffres (promotions, 432 h) · Qualiopi + n° · témoignage médecin nommé + consentement · copy du H1 (signature V8).
+Chiffres (promotions) · Qualiopi + n° · témoignage médecin nommé + consentement · copy du H1 (signature V8).
 
 ## Méthode
 Brouillon **1727** → réorganiser les sections → remettre au QG. Snapshot JetBackup avant toute session. Ne pas publier.
