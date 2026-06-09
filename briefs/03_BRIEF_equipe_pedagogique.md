@@ -2,6 +2,10 @@
 
 > **Base = la page Corps enseignant actuelle (brouillon 1750).** Ci-dessous **uniquement ce qui change**. Risque juridique n°1 (usurpation de titre) : rien sans preuve. Règles transverses : `00_REGLES_COMMUNES`. **Zone 1** (la note de bas de page = caution structurelle). **Dans le SCOPE E-130.**
 
+## État du brouillon 1750 — vérifié au rendu (9 juin)
+**✅ Fait (Clément)** — Jencikova → « **MUDr. M. Jencikova** » (titre « Thérapeute » supprimé) · Trégourès → « **D. Trégourès / Pharmacien** » · note caution L.4161-1 · vraies photos.
+**◻️ Reste** — **séparer les 2 non-soignants** (Arnault RH, Gouth dév. perso) — décision QG · **ordre cœur clinique → appui** pas net (Arnault placé avant psy/ostéo) · **bios « Parcours et Formation » non nettoyées** (claims « cancer », « éducation thérapeutique des patients ») · titres Guyon/Grandjean à confirmer IDENAT.
+
 ## Réorganiser
 - **Carrousel / testimonials → liste verticale scrollable** (le carrousel cache l'info, anti-mobile).
 - Ordre : **cœur clinique d'abord** (médecins, gynécologue, pharmacien), puis disciplines d'appui — **par discipline, pas par notoriété**.

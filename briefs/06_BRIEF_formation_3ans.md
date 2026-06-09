@@ -1,6 +1,10 @@
 # Brief 06 — La formation, 3 ans (id 192)
 
-> **Base = la page « La formation » actuelle (live 192), à dupliquer en brouillon.** Ci-dessous **uniquement ce qui change**. À ne pas confondre avec le **détail des 30 week-ends** (201) ni les **tarifs** (198). Règles transverses : `00_REGLES_COMMUNES`. Zone 2. **Dans le SCOPE E-130.**
+> **Base = le brouillon 1757** (dupliqué de la page 192). Ci-dessous **uniquement ce qui change**. À ne pas confondre avec le **détail des 30 week-ends** (201) ni les **tarifs** (198). Règles transverses : `00_REGLES_COMMUNES`. Zone 2. **Dans le SCOPE E-130.**
+
+## État du brouillon 1757 — vérifié au rendu (9 juin)
+**✅ Fait (Yassine)** — « pas seulement de traiter la maladie » → « ajoute une lecture des déterminants » · « guérison » retiré (×3) · « patient » → « personne » · point déontologique « orienter vers d'autres professionnels de santé » valorisé · lien vers le programme 201 ajouté · objectifs en compétences · 0 terme banni.
+**◻️ Reste** — remonter le bloc « **élargir le regard du soignant** » en tête (Divi) · bande verte vide · coquille « **Un nouvelle approche** » · ton « équipe dynamique et **passionnée** ».
 
 ## Modifier *(existant → cible)*
 - « Former des soignants capables de penser la santé, **pas seulement de traiter la maladie** » → retirer l'antithèse + « traiter » : « …capables d'ajouter une lecture des déterminants à leur pratique ».

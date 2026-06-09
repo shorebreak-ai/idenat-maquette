@@ -2,6 +2,8 @@
 
 > **Le site compte 12 URLs publiées** (11 pages + le blog). Ce tableau dit, pour chacune, qui la traite et **en quoi elle ne correspond pas encore au Bloc 1**. Aucune page n'est laissée hors radar avant le congrès.
 
+> **Avancement (9 juin, vérifié au rendu).** Brouillons traités : **Accueil 1727 · Naturothérapie 1756 · Formation 1757** (Yassine) ; **Équipe 1750 · Programme 1752 · Inscription 1754** (Clément). Le détail **fait / reste** est en tête de chaque brief. Constante : le **contenu/conformité passe**, la **forme et la structure Divi restent à faire** (hero, bande verte vide, icônes → images). Non démarrés : **Filiation 1732**, Master Classe, Blog, Contact/Mentions.
+
 | Page (id) | Zone | Brief | Action | Écart Bloc 1 (résumé) |
 |---|---|---|---|---|
 | Accueil (31) | 2 | 01 | Refonte | Slider plein écran, « soins intégratifs », tarif réduit périmé, pas de hiérarchie pour le médecin 30 s |

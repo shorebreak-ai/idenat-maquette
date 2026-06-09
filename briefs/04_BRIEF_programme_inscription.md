@@ -2,6 +2,10 @@
 
 > **Base = Programme (201 / 1752) + Inscription (198 / 1754).** Ci-dessous **uniquement ce qui change**. Règles transverses : `00_REGLES_COMMUNES`. Zone 2. **201 dans le SCOPE ; 198 à valider au SCOPE avant de toucher.**
 
+## État des brouillons 1752 / 1754 — vérifié au rendu (9 juin)
+**✅ Fait (Clément)** — *Programme 1752* : bloc Informations pratiques + **480 h** · CTA « Candidater » · WE10 « patients » → « personnes » · DPC traité en conditionnel (pas affiché). *Inscription 1754* : « Promotion 3200 € » supprimée · formulaire allégé (Adresse / CP / Ville retirés, RPPS optionnel) · CTA « Candidater / Déposer un dossier ».
+**◻️ Reste** — *Programme* : **syllabus à reformuler en compétences** (les 30 week-ends restent thématiques — gros morceau non fait) · WE26 « cancer » → compétence (décision QG) · CTA « Recevoir le programme (PDF) » (attente PDF). *Inscription* : confirmation enrichie + relance J+3 (plugin — décision QG) · interlocuteur nommé + délai (IDENAT) · cohérence admission non-soignants « Docteurs ès sciences / Bac +5 » (à confirmer).
+
 ## PROGRAMME (201 / 1752)
 **Modifier**
 - Syllabus en thématiques → **objectifs en compétences cliniques** (« à l'issue de ce module, le praticien sait… »). Garder les intitulés de week-ends.

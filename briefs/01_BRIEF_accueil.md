@@ -2,6 +2,10 @@
 
 > **Base = la home actuelle (brouillon 1727).** Ci-dessous **uniquement ce qui change** — le reste ne bouge pas. Style/thème Divi inchangés. Règles transverses : `00_REGLES_COMMUNES`. Zone 2. **Dans le SCOPE E-130.**
 
+## État du brouillon 1727 — vérifié au rendu (9 juin)
+**✅ Fait (contenu, Yassine)** — filtre « réservé aux soignants DE » · « depuis 1982 / Bobigny » dans le hero · distinction reformulée (sujet = école) · « soins intégratifs » → « en appui du suivi médical » · « tarif réduit » → « tarif anticipé » · FAQ refondée (bon pour les IA).
+**◻️ Reste (structure Divi = QG)** — supprimer la **bande verte vide** en haut · **slider → hero typographique** (1982 en monument + H1 choisi) · créer la **bande de légitimité** (480 h confirmé) · **icônes → vraies images** · trancher le **H1** (3 options en attente) · reformuler le résidu « démarche préventive active **complémentaire** ».
+
 ## Réorganiser (ordre de captation, à imposer)
 **Hero → Bande de légitimité → Distinction (≠ naturopathie) → Aperçu programme → Aperçu corps enseignant → Témoignages → CTA.** La home actuelle n'a pas cette hiérarchie : un médecin doit tout comprendre en 30 s sur mobile.
 

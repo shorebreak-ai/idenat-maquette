@@ -1,6 +1,10 @@
 # Brief 05 — Définir la naturothérapie (id 182)
 
-> **Base = la page actuelle (live 182), à dupliquer en brouillon.** Ci-dessous **uniquement ce qui change**. Règles transverses : `00_REGLES_COMMUNES`. Zone 2. **Dans le SCOPE E-130.**
+> **Base = le brouillon 1756** (dupliqué de la page 182). Ci-dessous **uniquement ce qui change**. Règles transverses : `00_REGLES_COMMUNES`. Zone 2. **Dans le SCOPE E-130.**
+
+## État du brouillon 1756 — vérifié au rendu (9 juin)
+**✅ Fait (Yassine)** — définition reformulée (sujet = soignant) · « le patient est rendu co-responsable » → « le soignant associe la personne… » · antithèse anti-médecine neutralisée · « guérison » retiré · distinction ≠ naturopathie conservée · 0 terme banni.
+**◻️ Reste** — dans le bloc historique gardé : **liste des 7 fondateurs** non sourcée (R7) à verrouiller · « sorti du cadre universitaire » → « **fermé en 2013 par la faculté** » · adresse « **18e, rue Versigny** » non sourcée à confirmer IDENAT · **décision QG** : garder l'historique ici ou le déplacer sur Filiation · bande verte vide + icône déco.
 
 ## Scinder *(décision de structure)*
 Cette page mélange **définition** et **histoire**. **L'histoire** (1982, Cornillot, « développement », « aujourd'hui / A2N ») **part sur la page Filiation** (brief 02) — un seul récit sourcé, pas deux. **Ici, on ne garde que la définition.**
