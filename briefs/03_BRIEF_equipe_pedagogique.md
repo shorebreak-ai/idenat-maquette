@@ -19,7 +19,7 @@ Donner au vérificateur de quoi cocher : **vrais titres, vrais soignants, cadre 
 
 ## Points durs *(preuve obligatoire avant publication)*
 - **Aucun titre publié sans RPPS/ADELI ou diplôme + statut** (en exercice / honoraire).
-- **Jencikova** : **docteure en médecine** (diplôme slovaque, UE), a exercé en France, **ne pratique plus la médecine conventionnelle**. Le « Dr » est donc fondé — l'afficher **avec cette précision**, jamais comme médecin en exercice. (Confirmer l'inscription à l'Ordre pour blindage total.)
+- **Jencikova** : **MUDr.** (titre slovaque de docteur en médecine, UE), a exercé en France, **ne pratique plus la médecine conventionnelle**. **Afficher « MUDr. M. Jencikova »** — titre réel, exact, vérifiable, et qui n'usurpe pas le « docteur en médecine » français. Ne pas la présenter comme médecin en exercice ; **pas caution clinique**. (Inscription à l'Ordre à confirmer.)
 - **Trégourès** : pharmacien → **ne pas écrire « Dr »**. Format : « D. Trégourès, pharmacien ».
 - **Les 2 non-soignants** (Gouth — dév. perso ; Arnault — RH) : **DÉCISION QG** — soit intervenants d'appui **clairement à part**, soit retirés. Ne jamais les mettre au niveau des médecins, ni leur attribuer du vocabulaire clinique.
 
