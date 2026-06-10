@@ -95,7 +95,7 @@
 9. **Encart SYNAMIEF** sur la home : oui (texte à valider Sabrina).
 10. **Go-live avant le 12** : les 6 pages retravaillées ; pas Filiation.
 11. **Forme** : Yassine + Clément exécutent sur des directives de forme fournies par le QG ; recadrage QG ensuite.
-12. **Hero accueil — entorse DA ciblée APPROUVÉE (10 juin)** : **ivoire + bleu-académie + vraie image + 1982 en monument**, fini le vert fluo sur le hero. Le reste du site garde le thème existant.
+12. **Hero accueil — premium DANS les codes IDENAT (10 juin, rectifié)** : **PAS de nouvelle palette pour le congrès** (l'ivoire/bleu = refonte d'après). Premium = discipline : hero fixe + vraie image + teal/charbon/blanc, vert fluo réduit à un accent, 1982 en monument, icônes → vraies images. Codes IDENAT conservés.
 13. **Cadre congrès = 3 piliers** (priorité) : **Perception** (surtout) · **Sécurité juridique** · **Facilité d'inscription**. Une seule décision les sert tous : « école clinique, réservée aux soignants, filiation DUMENAT 1982 », rendue premium. Voir « Plan congrès ».
 
 ---

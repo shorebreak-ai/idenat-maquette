@@ -20,11 +20,11 @@ La seule discipline : tenir cette ligne **partout**, du hero au bouton « Candid
 ## Pilier 1 — PERCEPTION *(surtout — c'est ce qui fait basculer)*
 **La barre :** en 2 secondes, l'œil dit « académie clinique ». Test : un médecin pourrait-il confondre avec une école de naturo lambda ? Si oui → **recalé**.
 
-**Décision (10 juin) : entorse DA ciblée APPROUVÉE sur le hero de la home** (le reste du site garde le thème existant).
-- Hero en **ivoire + bleu-académie** (palette Bloc 1) — **fini le vert fluo** sur cet écran.
-- **Une vraie image forte** : archive DUMENAT (amphi Bobigny, 1982) ou visuel clinique sobre. **Pas la fleur floue.**
-- **1982 en monument** + H1 « La naturothérapie clinique, enseignée aux soignants depuis 1982 » + « réservé aux soignants diplômés d'État ».
-- Supprimer la **bande verte vide** · slider → hero fixe · logo posé sobrement.
+**Décision (10 juin) : premium AVEC les codes actuels d'IDENAT — PAS de nouvelle palette.** (L'ivoire/bleu académique = la **refonte d'après-congrès**, pas maintenant.) Le « cheap » ne vient pas des couleurs mais du slider, de la bande vide, des icônes, de l'absence de vraies images. On corrige **ça**, dans leurs couleurs.
+- **Lean sur teal (#0099a1) + charbon + blanc**, **vert tilleul en accent** (filet, logo), pas en aplats fluo. Mêmes codes, usage discipliné.
+- **Hero fixe** (pas slider) sur une **vraie image forte** (archive DUMENAT / amphi Bobigny 1982, ou visuel clinique sobre — **pas la fleur floue**), overlay charbon pour la lisibilité.
+- **1982 en monument** + H1 « La naturothérapie clinique, enseignée aux soignants depuis 1982 » + « réservé aux soignants diplômés d'État » + CTA unique **« Candidater »**.
+- Supprimer la **bande verte vide** · **icônes → vraies images** · logo existant conservé, posé sobrement.
 
 **Challenge de l'exigence :** la perception **ne s'arrête pas au hero**. Le chemin des 30 s (hero → une preuve → candidater) doit rester premium **jusqu'au bouton**. Si la page Inscription reste verte-wellness avec un formulaire lourd, la perception casse à la conversion. **Pilier 1 et Pilier 3 sont le même geste.**
 
