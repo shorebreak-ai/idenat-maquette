@@ -52,8 +52,10 @@
 | Jencikova | « Dr M. Jencikova / Thérapeute » → « **MUDr. M. Jencikova** » (titre clinique supprimé) | 9 juin |
 | Trégourès | « Dr D. Trégourès » → « **D. Trégourès / Pharmacien** » | 9 juin |
 | Caution | note L.4161-1 « les formateurs enseignent ; ils ne se substituent pas au soin » ajoutée | 9 juin |
-| **⚠ BLOQUÉ** | **La liste affichée = anciens testimonials du site, PAS les vrais formateurs.** Liste réelle à confirmer par Imran avant toute suite. | — |
-| **Reste** | ordre cœur clinique → appui · bios « Parcours » à nettoyer (claims « cancer », « patients ») | — |
+| **⚠ GELÉ** | **La liste affichée (10 testimonials) n'est PAS celle des formateurs.** Page à refaire avec la vraie liste, pas à corriger. | — |
+| **Vrais formateurs** (Imran 10 juin) | **Alain · Jencikova · Erika · Sabrina · Philippe · Martine · Rodolphe** — fiches (titre exact + module + photo + consentement RGPD) en attente. | 10 juin |
+| Recoupement | Seuls **Alain (Guyon)** et **Jencikova** sont déjà sur le site. **Erika, Sabrina, Philippe, Martine, Rodolphe** = absents. Les 8 autres testimonials (Brumauld, Grandjean, Arnault, Benazzi, Bohec, Gouth, Jeambourquin, Trégourès) = **à retirer** (pas formateurs ; « Martine » = Gouth ? à confirmer). | 10 juin |
+| **Reste** | tout : reconstruire la page à partir des fiches reçues. Rien en ligne sans titre prouvé. | — |
 
 ### Programme des séminaires — live 201 → brouillon **1752** *(Clément + QG)*
 | Élément | Avant → Après | Date |
