@@ -97,6 +97,7 @@
 11. **Forme** : Yassine + Clément exécutent sur des directives de forme fournies par le QG ; recadrage QG ensuite.
 12. **Hero accueil — premium DANS les codes IDENAT (10 juin, rectifié)** : **PAS de nouvelle palette pour le congrès** (l'ivoire/bleu = refonte d'après). Premium = discipline : hero fixe + vraie image + teal/charbon/blanc, vert fluo réduit à un accent, 1982 en monument, icônes → vraies images. Codes IDENAT conservés.
 13. **Cadre congrès = 3 piliers** (priorité) : **Perception** (surtout) · **Sécurité juridique** · **Facilité d'inscription**. Une seule décision les sert tous : « école clinique, réservée aux soignants, filiation DUMENAT 1982 », rendue premium. Voir « Plan congrès ».
+14. **Focus congrès = 4 pages + 2 retraits (10 juin)** : on ne refait **PAS** les 12 pages. Chemin du médecin = **Accueil · Programme · Inscription · Corps enseignant** ; **retirer** Master Classe + blog. Naturothérapie / Formation déjà conformes (on n'y revient pas). Filiation / Contact / Mentions = après le congrès.
 
 ---
 

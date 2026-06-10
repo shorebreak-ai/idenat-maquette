@@ -56,8 +56,11 @@ La seule discipline : tenir cette ligne **partout**, du hero au bouton « Candid
 ## Bloqué sur IDENAT *(pas de publication sans)*
 Fiches des 7 formateurs (titre prouvé + module + photo + consentement) · fondateurs / sigle / archive / adresse · coût / dates / Qualiopi / ODPC · témoignage d'un médecin nommé.
 
-## À NE PAS PUBLIER avant le congrès *(la préparation, elle, va jusqu'au bout sur les 12 pages)*
-**Filiation** (prête, mais pas en ligne : données à verrouiller) · **refonte complète / nouvelle DA globale** (ivoire/bleu = après le congrès) · durcissement technique **E-130** (serveur / DNS, chantier séparé). Tout le reste se prépare ; seul le **go-live** est arbitré par le QG.
+## Le focus congrès *(on ne disperse pas l'effort)*
+Le congrès = **le chemin du médecin** : **Accueil → Programme → Inscription → Corps enseignant**, + **retirer** Master Classe & blog. Naturothérapie et Formation sont déjà conformes (on n'y revient pas, sauf icônes → images).
+
+## Hors scope congrès *(après le 12 juin)*
+**Filiation (1732)** · **Contact (211)** · **Mentions légales (209)** · **refonte complète / nouvelle DA** (ivoire/bleu) · durcissement technique **E-130** (serveur / DNS). Pas le temps de revoir 12 pages — on tient les 4 du chemin + les 2 retraits.
 
 ## Publication *(QG uniquement)*
 Go-live des pages validées, titres prouvés : **Accueil · Naturothérapie · Formation · Programme · Inscription**. Équipe dès réception des fiches. Chaque mise en ligne consignée au **Journal des modifs** (+ 301 le cas échéant).

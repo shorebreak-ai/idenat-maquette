@@ -36,23 +36,21 @@ Premium **sans sortir des codes IDENAT**. On corrige le cheap dans **leurs** cou
 2. **Sécurité juridique** — un confrère ne trouve aucune faille. **Binaire** : une seule page oubliée (un « guérison », un titre non prouvé) = tout tombe.
 3. **Facilité d'inscription** — « Candidater » à **≤ 2 clics** du hero, formulaire minimal **sans bug**, confirmation immédiate. Pas de « Nous contacter » comme accès principal.
 
-## 4. TOUTES les pages — tu fais les 12
-Le site = 12 URLs. Tu les prépares **toutes** en brouillon, de bout en bout. Direction en une ligne ; le détail est dans les briefs (diffs + statut fait / reste).
-1. **Accueil (1727)** — hero (cf. §2) · bande de légitimité (480 h · 1982) · icônes → images · encart SYNAMIEF.
-2. **Définir la naturothérapie (1756)** — définition OK ; corriger l'historique (fondateurs sourcés · « fermé en 2013 par la faculté » · adresse) · icône → image.
-3. **Filiation (1732)** — construire la page (origine sourcée) ; **prête, mais sa mise en ligne = décision QG** (données à verrouiller).
-4. **La formation, 3 ans (1757)** — « élargir le regard du soignant » en tête · coquille « Un nouvelle approche ».
-5. **Programme (1752)** — **syllabus en compétences** (le gros morceau) · CTA « Recevoir le programme (PDF) ».
-6. **Inscription (1754)** — confirmation enrichie + interlocuteur · formulaire sans bug · trancher « Bac +5 scientifique ».
-7. **Corps enseignant (1750)** — **reconstruire** avec les **7 vrais formateurs** (placeholders jusqu'aux fiches).
-8. **Master Classe (1394)** — à **retirer** : préparer la redirection 301 (le retrait du live, cf. §5).
-9. **Blog — articles 1235 / 1145** — à **retirer** : préparer la 301. Listing (1081) masqué de la nav.
-10. **Contact (211)** — interlocuteur nommé · mention RGPD · pas de claim clinique.
-11. **Mentions légales + confidentialité (209)** — clarifier éditeur / A2N · RGPD des nouveaux formulaires · pas de « DPC ».
+## 4. Les pages du congrès — on FOCUS, on ne refait pas les 12
+Pas le temps de revoir tout le site. **Tu te concentres sur le chemin qu'un médecin prend au congrès**, dans cet ordre :
+1. **Accueil (1727)** — priorité absolue : le hero (cf. §2) · bande de légitimité (480 h · 1982) · icônes → images · CTA « Candidater » · encart SYNAMIEF.
+2. **Programme (1752)** — la substance qu'il vient vérifier : **syllabus en compétences** (le gros morceau) + infos pratiques (480 h, dates, coût).
+3. **Inscription (1754)** — candidater sans friction : formulaire minimal **sans bug** · confirmation + interlocuteur · trancher « Bac +5 scientifique ».
+4. **Corps enseignant (1750)** — la légitimité (le confrère vérifie les titres) : **reconstruire** avec les **7 vrais formateurs**, dès les fiches.
 
-Partout : **icônes → vraies images**, codes IDENAT tenus, conformité, WebP + lazy-load.
+**Neutraliser — retraits rapides, pas des reworks :**
+5. **Master Classe (1394)** — retirer + 301.
+6. **Blog — articles 1235 / 1145** — retirer + 301.
 
-## 5. Tu fais tout — 2 dépendances externes à gérer *(pas des exceptions)*
+**Déjà conformes, on n'y revient pas** (sauf icônes → images si le temps) : Naturothérapie (1756), Formation (1757).
+**Hors scope congrès** (après le 12) : Filiation, Contact, Mentions.
+
+## 5. Sur ces pages, 2 dépendances externes à gérer *(pas des exceptions)*
 1. **Les données qu'IDENAT seul détient** : titres + fiches des 7 formateurs · image d'archive DUMENAT · interlocuteur / coût / dates d'inscription. Personne dans l'équipe ne peut les inventer (risque usurpation de titre). → **Tu construis la page complète avec des placeholders sobres + repères « à confirmer », et tu intègres dès réception.** Tu ne te bloques jamais dessus.
 2. **La mise en ligne et le retrait** : aujourd'hui `wp.sh` refuse d'écrire sur une page publiée (garde-fou QG). Tu **prépares tout** (brouillons + redirections 301) ; le passage en ligne / le retrait se fait soit par le QG en un clic, soit **par toi si tu reçois les droits de publication**.
 
