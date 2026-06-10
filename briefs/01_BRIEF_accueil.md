@@ -4,7 +4,7 @@
 
 ## État du brouillon 1727 — vérifié au rendu (9 juin)
 **✅ Fait (contenu, Yassine)** — filtre « réservé aux soignants DE » · « depuis 1982 / Bobigny » dans le hero · distinction reformulée (sujet = école) · « soins intégratifs » → « en appui du suivi médical » · « tarif réduit » → « tarif anticipé » · FAQ refondée (bon pour les IA).
-**◻️ Reste (structure Divi = QG)** — supprimer la **bande verte vide** en haut · **slider → hero typographique** (1982 en monument + H1 choisi) · créer la **bande de légitimité** (480 h confirmé) · **icônes → vraies images** · trancher le **H1** (3 options en attente) · reformuler le résidu « démarche préventive active **complémentaire** ».
+**◻️ Reste — LE HERO = priorité perception (entorse DA approuvée 10 juin)** — refaire le hero : fond **ivoire + bleu-académie** (palette Bloc 1, **fini le vert fluo** sur cet écran) · **vraie image forte** (archive DUMENAT / clinique sobre, **pas la fleur floue**) · **1982 en monument** + H1 = **« La naturothérapie clinique, enseignée aux soignants depuis 1982 »** + « réservé aux soignants diplômés d'État » · supprimer la **bande verte vide** · **slider → fixe** · **icônes → vraies images** · **bande de légitimité** (480 h · 1982 · promotions) · CTA unique **« Candidater »** dès le hero · reformuler le résidu « démarche préventive active **complémentaire** ».
 
 ## Réorganiser (ordre de captation, à imposer)
 **Hero → Bande de légitimité → Distinction (≠ naturopathie) → Aperçu programme → Aperçu corps enseignant → Témoignages → CTA.** La home actuelle n'a pas cette hiérarchie : un médecin doit tout comprendre en 30 s sur mobile.

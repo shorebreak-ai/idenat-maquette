@@ -1,36 +1,63 @@
-# Plan congrès — tout ce qui reste avant le 12 juin
+# Plan congrès — l'équilibre à tenir avant le 12 juin
 
-> Vue consolidée du **reste à faire** sur le site au jour du congrès SYNAMIEF. Le détail page par page est dans chaque brief ; le suivi des modifs dans le **Journal des modifs**. La direction est tranchée (décisions QG 9-10 juin). **Rien ne passe en ligne sans validation QG.**
+> Le site doit réussir **trois épreuves en même temps**, et un médecin les fait passer toutes en 30 secondes sur son téléphone : **me reclasser** (perception), **ne rien me donner à attaquer** (sécurité juridique), **me laisser candidater tout de suite** (facilité). Si une seule lâche, les deux autres ne servent à rien.
 
-## 1 — À neutraliser en priorité *(ce qu'un confrère voit en premier)*
-- **Master Classe (1394)** : dépublier / dé-indexer + redirection 301 *(contredit « réservé aux soignants »)*.
-- **Blog — 2 articles signés Guyon (1235, 1145)** : retirer + 301 *(« contourner voire négocier » la loi, signature composite)*.
-- **Hero de l'accueil** : remplacer le slider par un **hero typographique** (H1 = « La naturothérapie clinique, enseignée aux soignants depuis 1982 » + 1982 en monument) et **supprimer la bande verte vide** en haut de page.
+## L'équilibre n'est pas un compromis
+Les trois ne se disputent pas — **une seule décision les sert toutes** : assumer l'identité « école **clinique**, **réservée aux soignants diplômés d'État**, dans la filiation du **DUMENAT (1982)** », rendue **premium**.
+- C'est ça qui **reclasse** (académie, pas wellness).
+- C'est ça qui **protège** (réservé aux soignants = filtre légal ; sujet = école / soignant = pas d'exercice illégal).
+- C'est ça qui **fait candidater** (la sélectivité rend l'inscription désirable, pas banale).
 
-## 2 — Finir les pages vitrines *(le contenu est fait, reste surtout la forme)*
-- **Accueil (1727)** : bande de légitimité (480 h · depuis 1982 · promotions · Qualiopi si confirmé) · icônes → vraies images · encart SYNAMIEF · reformuler le résidu « démarche préventive active complémentaire ».
-- **Naturothérapie (1756)** : corriger l'historique gardé — fondateurs (version sourcée unique) · « sorti du cadre universitaire » → « fermé en 2013 par la faculté » · adresse à confirmer · bande verte + icône.
-- **Formation (1757)** : remonter « élargir le regard du soignant » en tête · coquille « Un nouvelle approche » → « Une nouvelle approche ».
-- **Programme (1752)** : **reformuler le syllabus en compétences** (les 30 week-ends — le gros morceau) · CTA « Recevoir le programme (PDF) ».
-- **Inscription (1754)** : confirmation enrichie + relance (formulaire Divi natif, sans le faire buguer) · interlocuteur nommé · trancher « Bac +5 scientifique » (non-soignant).
-- **Équipe (1750)** : **GELÉE** — page à **reconstruire** à partir des fiches des 7 vrais formateurs (Alain · Jencikova · Erika · Sabrina · Philippe · Martine · Rodolphe) ; retirer les noms qui ne sont pas formateurs.
+La seule discipline : tenir cette ligne **partout**, du hero au bouton « Candidater ».
 
-## 3 — La forme *(le vrai goulot, transversal à toutes les pages)*
-Le contenu passe ; la forme, non (hero, bande verte vide, icônes au lieu d'images, pas de rythme). Reste :
-- **Directives de forme** à fournir : hero typo · palette IDENAT existante · règle « vraies images, grandes, pas d'icônes » · suppression de la bande verte · rythme léger → dense.
-- **Images à réunir** : archive DUMENAT · photos des formateurs (avec consentement) · 3-4 visuels cliniques sobres. **Sans images, la forme ne passera pas.**
+## Les 3 points où ils se tendent *(l'équilibre à doser)*
+1. **Premium vs CTA visible.** La sobriété ne doit jamais cacher l'action → un CTA « Candidater » **unique, sobre, mais impossible à rater**.
+2. **Sécurité vs friction.** Le filtre « réservé aux soignants » se pose **en une phrase, comme un privilège**, pas en mur de mentions légales. RPPS **optionnel**, jamais barrière à l'entrée.
+3. **Image forte vs mobile rapide.** **Une seule** image puissante (WebP), pas une galerie qui lague. La perception se joue sur 1 visuel, pas 10.
 
-## 4 — Bloqué sur des données qu'IDENAT seul fournit *(pas de publication sans)*
-- **Fiches des 7 formateurs** : titre exact prouvé (RPPS/ADELI) + module + photo + consentement RGPD.
-- **Filiation / origine** : version unique sourcée des fondateurs · développé exact du sigle DUMENAT · dates · archive · adresse réelle des cours.
-- **Programme / Inscription** : coût · dates de session · Qualiopi (+ n°) · statut ODPC · interlocuteur nommé.
-- **Accueil** : nombre de promotions · témoignage d'un médecin nommé + consentement.
+---
 
-## 5 — À NE PAS faire avant le congrès *(clarté de périmètre)*
-- **Filiation (1732)** : page neuve = nouvelle URL + données non verrouillées → **post-congrès**.
-- **Refonte complète / nouvelle DA** : non, on améliore l'existant.
-- **Contact + Mentions légales (211 / 209)** : utilitaire, seulement si le temps (RGPD des nouveaux formulaires, éditeur / A2N).
-- **Durcissement technique E-130** (en-têtes HTTP, DMARC) : chantier serveur / DNS séparé, pas du Divi.
+## Pilier 1 — PERCEPTION *(surtout — c'est ce qui fait basculer)*
+**La barre :** en 2 secondes, l'œil dit « académie clinique ». Test : un médecin pourrait-il confondre avec une école de naturo lambda ? Si oui → **recalé**.
 
-## 6 — Publication *(QG uniquement)*
-Go-live, une fois les pages validées et les titres prouvés : **Accueil · Naturothérapie · Formation · Programme · Inscription** (Équipe dès que les fiches arrivent). Chaque mise en ligne consignée au **Journal des modifs** (+ 301 le cas échéant).
+**Décision (10 juin) : entorse DA ciblée APPROUVÉE sur le hero de la home** (le reste du site garde le thème existant).
+- Hero en **ivoire + bleu-académie** (palette Bloc 1) — **fini le vert fluo** sur cet écran.
+- **Une vraie image forte** : archive DUMENAT (amphi Bobigny, 1982) ou visuel clinique sobre. **Pas la fleur floue.**
+- **1982 en monument** + H1 « La naturothérapie clinique, enseignée aux soignants depuis 1982 » + « réservé aux soignants diplômés d'État ».
+- Supprimer la **bande verte vide** · slider → hero fixe · logo posé sobrement.
+
+**Challenge de l'exigence :** la perception **ne s'arrête pas au hero**. Le chemin des 30 s (hero → une preuve → candidater) doit rester premium **jusqu'au bouton**. Si la page Inscription reste verte-wellness avec un formulaire lourd, la perception casse à la conversion. **Pilier 1 et Pilier 3 sont le même geste.**
+
+## Pilier 2 — SÉCURITÉ JURIDIQUE *(le confrère vérificateur repart les mains vides)*
+**La barre :** un médecin sceptique qui cherche la faille (titre, claim, exercice illégal) ne trouve **rien**.
+- **Dépublier** Master Classe (1394) + les 2 articles de blog (1235 / 1145) + redirection 301.
+- **Zéro terme banni** où que ce soit (soigner / guérir / soins intégratifs / tarif réduit) · sujet = école / soignant, **jamais la discipline** · « en appui du suivi médical ».
+- **Aucun titre non prouvé** en ligne (RPPS / ADELI + statut). **Équipe gelée** jusqu'aux fiches des 7 vrais formateurs.
+- Mentions légales / RGPD à jour pour les nouveaux formulaires (consentement photos).
+
+**Challenge de l'exigence :** la sécurité est **binaire, pas graduelle**. Une seule page oubliée — la Master Classe laissée en ligne, un « guérison » dans un coin — et tout le blindage tombe. **« Presque sûr » = pas sûr.**
+
+## Pilier 3 — FACILITÉ DE S'INSCRIRE *(le médecin convaincu agit tout de suite)*
+**La barre :** depuis n'importe quelle page, candidater est évident, à **un clic**, sans obstacle. On lit sur mobile : chaque friction = un lead perdu.
+- **CTA unique « Candidater »** dès le hero et répété — **jamais** « Nous contacter » comme accès principal.
+- **Formulaire minimal** (nom · profession · email pro · RPPS optionnel · message) · pas de pop-up · **testé, sans bug**.
+- **Confirmation immédiate** + interlocuteur nommé + délai de réponse annoncé. **Zéro cul-de-sac** (aucun CTA vers une page vide ou un 404).
+
+**Challenge de l'exigence :** « facile » se **mesure en clics et en secondes**, pas en intentions. Depuis le hero, en combien de clics suis-je candidat ? Si **> 2**, ou si on me demande une adresse postale, c'est raté.
+
+---
+
+## Subordonné *(à faire une fois les 3 piliers tenus — détail dans chaque brief)*
+- **Naturothérapie (1756)** : historique corrigé (fondateurs sourcés · « fermé en 2013 par la faculté » · adresse).
+- **Formation (1757)** : « élargir le regard du soignant » en tête · coquille « Un nouvelle approche ».
+- **Programme (1752)** : **syllabus en compétences** (les 30 week-ends).
+- Icônes → vraies images sur l'ensemble des pages vitrines.
+
+## Bloqué sur IDENAT *(pas de publication sans)*
+Fiches des 7 formateurs (titre prouvé + module + photo + consentement) · fondateurs / sigle / archive / adresse · coût / dates / Qualiopi / ODPC · témoignage d'un médecin nommé.
+
+## À NE PAS faire avant le congrès
+Filiation (post-congrès) · refonte complète / nouvelle DA globale · Contact + Mentions (si le temps) · durcissement technique E-130 (serveur / DNS, séparé).
+
+## Publication *(QG uniquement)*
+Go-live des pages validées, titres prouvés : **Accueil · Naturothérapie · Formation · Programme · Inscription**. Équipe dès réception des fiches. Chaque mise en ligne consignée au **Journal des modifs** (+ 301 le cas échéant).
