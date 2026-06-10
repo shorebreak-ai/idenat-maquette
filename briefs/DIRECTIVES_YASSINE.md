@@ -15,7 +15,7 @@
 - **Volume horaire** : **480 h** (confirmé, affichable).
 - **CONFORMITÉ (non négociable, risque juridique réel)** : le sujet d'une phrase clinique est **IDENAT ou le soignant, JAMAIS la discipline**. **Termes bannis** : soigner, guérir, guérison, traiter, **soins intégratifs**, médecine douce, **tarif réduit**, **patient** (au sens médical → personne), holistique, bien-être. Toujours « **en appui du suivi médical** ». **Enseigner ≠ exercer** (L.4161-1). **Aucun titre de formateur** publié sans preuve (RPPS / ADELI ou diplôme + statut) ; un pharmacien ne porte pas « Dr ». **Ne pas afficher « DPC »** sans statut ODPC.
 - **Les 7 vrais formateurs** : **Alain · Jencikova · Erika · Sabrina · Philippe · Martine · Rodolphe**. La liste actuelle du site (10 noms) **est fausse**. Page Équipe **GELÉE** jusqu'aux fiches (titre exact + module + photo + consentement RGPD).
-- **Méthode WP = BROUILLON-ONLY** : `./wp.sh duplicate <id>` → travailler le brouillon → remettre l'id au QG. **Tu ne publies JAMAIS.** Publication, mise en ligne, changement d'URL = QG uniquement. Snapshot JetBackup avant toute session.
+- **Méthode WP = BROUILLON-ONLY (règle absolue, non négociable)** : `./wp.sh duplicate <id>` → travailler le brouillon → remettre l'id au QG. **Tu ne publies JAMAIS, tu ne retires JAMAIS une page du live.** Toute mise en ligne, tout retrait, tout changement d'URL = **QG, et seulement sur le GO explicite d'Imran. Rien en ligne sans son go.** Snapshot JetBackup avant toute session.
 - **Journal des modifs** : toute modif (brouillon ET publiée) se consigne (avant → après) dans `JOURNAL_MODIFS_SITE.md`.
 - **Ne jamais dégrader** : SSL A, PageSpeed SEO 100, les 11 URLs canoniques (pas de changement de slug). Images en **WebP + lazy-load**.
 
@@ -52,7 +52,7 @@ Pas le temps de revoir tout le site. **Tu te concentres sur le chemin qu'un méd
 
 ## 5. Sur ces pages, 2 dépendances externes à gérer *(pas des exceptions)*
 1. **Les données qu'IDENAT seul détient** : titres + fiches des 7 formateurs · image d'archive DUMENAT · interlocuteur / coût / dates d'inscription. Personne dans l'équipe ne peut les inventer (risque usurpation de titre). → **Tu construis la page complète avec des placeholders sobres + repères « à confirmer », et tu intègres dès réception.** Tu ne te bloques jamais dessus.
-2. **La mise en ligne et le retrait** : aujourd'hui `wp.sh` refuse d'écrire sur une page publiée (garde-fou QG). Tu **prépares tout** (brouillons + redirections 301) ; le passage en ligne / le retrait se fait soit par le QG en un clic, soit **par toi si tu reçois les droits de publication**.
+2. **La mise en ligne et le retrait** : **TOUT reste en brouillon. Rien ne passe en ligne — et rien ne se retire du live — sans le GO explicite d'Imran.** `wp.sh` refuse par construction d'écrire sur une page publiée : c'est voulu, on n'y touche pas. Tu **prépares tout** (brouillons + redirections 301 prêtes) et tu remets les id au QG. Le go-live et les retraits (Master Classe, blog) = **QG, sur le go d'Imran. Jamais toi.**
 
 ## 6. Quand c'est prêt
 Tu remets les **id de brouillons** au QG avec une note de ce qui a changé (pour le journal). Le QG inspecte le **rendu réel** (desktop + mobile), recadre si besoin, puis publie.
