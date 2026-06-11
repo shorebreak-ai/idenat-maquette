@@ -6,113 +6,174 @@
 <title>IDENAT — Institut de naturothérapie clinique</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
 <style>
 :root{
-  --blanc:#ffffff; --blanc-casse:#f4f6f6; --gris-trait:#e4e8e8;
-  --charbon:#16282c; --charbon-deep:#0f1c1f; --texte:#243034; --texte-soft:#54646a;
-  --teal:#0099a1; --teal-deep:#007a81; --teal-clair:#33b3ba;
+  --blanc:#ffffff; --casse:#f5f6f4; --trait:#e2e5e1; --trait-fort:#cfd4ce;
+  --charbon:#15262b; --charbon-deep:#0e1c20;
+  --encre:#223238; --encre-soft:#5c6a6f;
+  --teal:#0099a1; --teal-deep:#00787f; --teal-pale:#e3f1f1;
   --vert:#a1bf15;
-  --sans:'Inter',system-ui,Arial,sans-serif;
+  --f:'Open Sans',system-ui,Arial,sans-serif;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-body{font-family:var(--sans);background:var(--blanc);color:var(--texte);line-height:1.6;-webkit-font-smoothing:antialiased}
-.wrap{max-width:1140px;margin:0 auto;padding:0 40px}
+body{font-family:var(--f);background:var(--blanc);color:var(--encre);font-size:17px;line-height:1.7;-webkit-font-smoothing:antialiased;font-weight:400;overflow-x:hidden}
+.wrap{max-width:1200px;margin:0 auto;padding:0 56px}
+.mark{font-size:11.5px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;display:flex;align-items:center;gap:14px}
+.num::before{font-weight:800;letter-spacing:0;color:var(--trait-fort)}
 a{color:inherit;text-decoration:none}
+@media(max-width:860px){.wrap{padding:0 24px}html{overflow-x:hidden}}
 
-/* NAV */
-nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--gris-trait)}
-.nav-in{display:flex;align-items:center;justify-content:space-between;height:72px}
-.brand{font-size:24px;font-weight:800;letter-spacing:.04em;color:var(--charbon)}
-.brand span{color:var(--teal)}
-.nav-links{display:flex;gap:32px;font-size:14.5px;font-weight:500;color:var(--texte-soft)}
-.nav-links a:hover{color:var(--teal)}
-.btn{display:inline-block;font-family:var(--sans);font-size:14.5px;font-weight:600;letter-spacing:.01em;padding:12px 26px;border-radius:3px;transition:.15s;cursor:pointer}
+/* ============ MASTHEAD + NAV ============ */
+.masthead{border-bottom:1px solid var(--trait)}
+.mh-top{display:flex;justify-content:space-between;align-items:center;padding:9px 0;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--encre-soft);border-bottom:1px solid var(--trait)}
+.mh-top .dot{color:var(--vert);margin:0 8px}
+nav .nav-in{display:flex;align-items:center;justify-content:space-between;height:78px}
+.brand{display:flex;align-items:baseline;gap:13px;min-width:0}
+.brand .wm{font-size:25px;font-weight:800;letter-spacing:.06em;color:var(--charbon)}
+.brand .wm i{font-style:normal;color:var(--teal)}
+.brand .tag{font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--encre-soft);border-left:1px solid var(--trait-fort);padding-left:13px}
+.nav-links{display:flex;gap:30px;font-size:13px;font-weight:600;letter-spacing:.04em;color:var(--encre)}
+.nav-links a{padding-bottom:3px;border-bottom:1px solid transparent}
+.nav-links a:hover{border-color:var(--teal)}
+.btn{display:inline-block;font-family:var(--f);font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:13px 24px;transition:.15s;cursor:pointer;border:1px solid transparent;white-space:nowrap}
 .btn-fill{background:var(--teal);color:#fff}
 .btn-fill:hover{background:var(--teal-deep)}
-.btn-ghost{border:1px solid #fff;color:#fff}
-.btn-ghost:hover{background:#fff;color:var(--charbon)}
-.btn-vert{background:var(--vert);color:var(--charbon-deep);font-weight:700}
-.btn-vert:hover{background:#b4d12a}
-@media(max-width:820px){.nav-links{display:none}}
+.btn-line{border-color:var(--charbon);color:var(--charbon)}
+.btn-line:hover{background:var(--charbon);color:#fff}
+.btn-line-w{border-color:rgba(255,255,255,.55);color:#fff}
+.btn-line-w:hover{background:#fff;color:var(--charbon)}
+@media(max-width:860px){.nav-links{display:none}.brand .tag{display:none}.mh-top{flex-direction:row;justify-content:flex-start;gap:0;font-size:11px;letter-spacing:.08em}.mh-name,.mh-hide{display:none}}
 
-/* HERO — la filiation porte le hero */
-.hero{position:relative;min-height:580px;display:flex;align-items:center;
-  background:linear-gradient(180deg,rgba(15,28,31,.80),rgba(22,40,44,.88)),
-  radial-gradient(120% 120% at 80% 0%,#1f3a40 0%,#16282c 55%,#0f1c1f 100%);
-  color:#fff;overflow:hidden}
-.hero::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:4px;
-  background:linear-gradient(90deg,var(--teal) 0%,var(--teal) 60%,var(--vert) 60%,var(--vert) 100%)}
-.hero .filiation{display:inline-flex;align-items:center;gap:15px;font-size:13px;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:#cfe3e4;margin-bottom:24px}
-.hero .filiation::before{content:"";width:36px;height:2px;background:var(--vert);flex:none}
-.hero .filiation b{color:var(--teal-clair);font-weight:800;letter-spacing:.04em}
-.hero h1{font-weight:800;color:#fff;font-size:58px;line-height:1.08;letter-spacing:-.02em;max-width:16ch;margin-bottom:24px}
-.hero .lede{font-size:18.5px;line-height:1.62;color:#cdd9db;max-width:50ch;margin-bottom:36px}
+/* ============ HERO — éditorial, une colonne ============ */
+.hero{padding:74px 0 0}
+.hero .mark{color:var(--teal);margin-bottom:28px}
+.hero .mark::before{content:"01"}
+.hero .eyebrow{font-size:14px;font-weight:600;letter-spacing:.03em;color:var(--encre-soft);margin-bottom:22px}
+.hero .eyebrow b{color:var(--charbon)}
+.hero h1{font-size:clamp(38px,5.2vw,70px);font-weight:800;line-height:1.03;letter-spacing:-.028em;color:var(--charbon);max-width:17ch}
+.hero h1 em{font-style:normal;color:var(--teal)}
+.hero .lede{font-size:20px;font-weight:300;line-height:1.6;color:var(--encre);max-width:50ch;margin:28px 0 36px}
+.hero .lede b{font-weight:600;color:var(--charbon)}
 .hero .cta-row{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
-.hero .link-arrow{font-size:15px;font-weight:600;color:#fff;border-bottom:1px solid var(--teal);padding-bottom:3px}
-.hero .link-arrow:hover{border-color:var(--vert)}
-.ph-note{position:absolute;right:18px;top:14px;font-size:11px;letter-spacing:.04em;color:#7d9296;text-transform:uppercase}
-@media(max-width:820px){.hero{min-height:0;padding:60px 0 58px}.hero h1{font-size:37px}.hero .lede{font-size:16.5px}.hero .filiation{font-size:11.5px;gap:12px;flex-wrap:wrap}}
+.hero .arrow{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--charbon);border-bottom:2px solid var(--vert);padding-bottom:4px}
+.hero .arrow:hover{color:var(--teal)}
+/* coda phrase-pivot */
+.coda{margin-top:72px;border-top:1px solid var(--trait);padding-top:40px;display:grid;grid-template-columns:auto 1fr;gap:40px;align-items:start}
+.coda .q{font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--teal);padding-top:10px;white-space:nowrap}
+.coda p{font-size:clamp(24px,3vw,38px);font-weight:300;line-height:1.25;letter-spacing:-.012em;color:var(--charbon);max-width:24ch}
+.coda p b{font-weight:800}
+@media(max-width:860px){.hero{padding:44px 0 0}.hero h1{font-size:33px}.hero .lede{font-size:17px;margin:22px 0 28px}.hero .cta-row{flex-direction:column;align-items:flex-start}.coda{margin-top:52px;grid-template-columns:1fr;gap:18px}.coda p{font-size:23px}}
 
-/* MONUMENT 1982 */
-.monument{background:var(--charbon);color:#fff;padding:90px 0;text-align:center}
-.monument .over{font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--teal-clair);margin-bottom:6px}
-.monument .year{font-weight:800;font-size:clamp(130px,21vw,230px);line-height:.9;color:#fff;letter-spacing:-.02em}
-.monument .filet{width:64px;height:3px;background:var(--vert);margin:10px auto 0}
-.monument .cap{max-width:62ch;margin:28px auto 0;font-size:16.5px;line-height:1.7;color:#aebcc0}
-.monument .cap b{color:#fff;font-weight:600}
-.monument .cap .teal{color:var(--teal-clair)}
-@media(max-width:820px){.monument{padding:60px 0}.monument .cap{font-size:15px;padding:0 8px}}
+/* ============ MONUMENT 1982 (bande charbon) ============ */
+.mono{background:var(--charbon);color:#fff;padding:92px 0 88px}
+.mono .mark{color:var(--vert);margin-bottom:30px}
+.mono .mark::before{content:"—";color:#3a4f55;font-weight:800}
+.mono-grid{display:grid;grid-template-columns:auto 1fr;gap:0 64px;align-items:end}
+.mono .yr{font-size:clamp(120px,19vw,248px);font-weight:800;line-height:.82;letter-spacing:-.03em;color:#fff}
+.mono .src{grid-column:1;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-pale);margin-top:22px;max-width:30ch;line-height:1.7}
+.mono .cont{grid-column:2;grid-row:1/3;align-self:center;border-left:2px solid var(--vert);padding-left:30px;max-width:34ch}
+.mono .cont .c1{font-size:25px;font-weight:700;line-height:1.3;color:#fff;letter-spacing:-.01em}
+.mono .cont .c1 b{color:var(--teal-pale);font-weight:700}
+.mono .cont .c2{font-size:15px;line-height:1.65;color:#9fb0b5;margin-top:16px}
+@media(max-width:860px){.mono{padding:60px 0}.mono-grid{grid-template-columns:1fr;gap:0}.mono .yr{font-size:96px}.mono .src{grid-column:1;margin-bottom:30px}.mono .src-long{display:none}.mono .cont{grid-column:1;grid-row:auto;margin-top:6px;padding-left:22px;max-width:none}.mono .cont .c1{font-size:21px}}
 
-/* SECTION générique */
-section.block{padding:90px 0}
-.eyebrow{font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--teal);margin-bottom:16px}
-.block h2{font-weight:800;color:var(--charbon);font-size:38px;line-height:1.16;letter-spacing:-.02em;max-width:18ch}
-.split{display:grid;grid-template-columns:1.05fr 1fr;gap:60px;align-items:start}
-.contrast{border-left:3px solid var(--vert);padding-left:26px}
-.contrast p{font-size:17px;line-height:1.7;margin-bottom:18px;color:var(--texte-soft)}
-.contrast p strong{color:var(--charbon);font-weight:600}
-@media(max-width:820px){section.block{padding:58px 0}.block h2{font-size:29px}.split{grid-template-columns:1fr;gap:30px}}
+/* ============ SECTION éditoriale ============ */
+section.ed{padding:94px 0}
+.ed .mark{color:var(--teal);margin-bottom:28px}
+.ed h2{font-size:clamp(28px,3.4vw,42px);font-weight:800;line-height:1.12;letter-spacing:-.022em;color:var(--charbon);max-width:20ch}
+.ed .sub{font-size:19px;font-weight:300;line-height:1.6;color:var(--encre);max-width:52ch;margin-top:20px}
 
-/* CHIFFRES */
-.facts{background:var(--blanc-casse)}
-.facts-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;text-align:center}
-.fact .n{font-weight:800;font-size:62px;line-height:1;color:var(--teal);letter-spacing:-.02em}
-.fact .l{font-size:14.5px;font-weight:500;letter-spacing:.02em;color:var(--texte-soft);margin-top:12px}
-.facts-grid .fact + .fact{border-left:1px solid var(--gris-trait)}
-@media(max-width:820px){.facts-grid{grid-template-columns:1fr;gap:28px}.facts-grid .fact+.fact{border-left:none;border-top:1px solid var(--gris-trait);padding-top:28px}.fact .n{font-size:50px}}
+/* distinction */
+.distinction .mark::before{content:"02"}
+.split2{display:grid;grid-template-columns:1fr 1fr;margin-top:50px;border-top:1px solid var(--trait)}
+.split2 > div{padding:40px 44px 42px 0}
+.split2 > div:last-child{padding:40px 0 42px 44px;border-left:1px solid var(--trait);position:relative}
+.split2 > div:last-child::before{content:"";position:absolute;top:-1px;left:44px;width:46px;height:3px;background:var(--vert)}
+.split2 > div:first-child::before{content:"";display:block;width:46px;height:3px;background:var(--trait-fort);margin-bottom:24px}
+.split2 .k{font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--encre-soft);margin-bottom:14px}
+.split2 .k.on{color:var(--teal)}
+.split2 h3{font-size:24px;font-weight:800;letter-spacing:-.01em;color:var(--charbon);margin-bottom:14px}
+.split2 p{font-size:16px;line-height:1.65;color:var(--encre-soft)}
+.split2 p b{color:var(--encre);font-weight:600}
+@media(max-width:860px){.split2{grid-template-columns:1fr}.split2 > div,.split2 > div:last-child{padding:30px 0;border-left:none;border-top:1px solid var(--trait)}.split2>div:first-child{border-top:none}.split2 > div:last-child::before{left:0}}
 
-/* DUO */
-.duo{display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid var(--gris-trait)}
-.duo > div{padding:58px 46px}
-.duo > div:first-child{border-right:1px solid var(--gris-trait)}
-.duo h3{font-weight:700;font-size:25px;color:var(--charbon);margin-bottom:14px}
-.duo p{font-size:16.5px;line-height:1.7;color:var(--texte-soft);margin-bottom:22px;max-width:42ch}
-.duo .link-arrow{font-size:15px;font-weight:600;color:var(--teal);border-bottom:1px solid var(--vert);padding-bottom:3px}
-@media(max-width:820px){.duo{grid-template-columns:1fr}.duo>div{padding:42px 40px}.duo>div:first-child{border-right:none;border-bottom:1px solid var(--gris-trait)}}
+/* second regard */
+.method{background:var(--casse)}
+.method .mark::before{content:"03"}
+.regards{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--trait);margin-top:50px;border:1px solid var(--trait)}
+.regards > div{padding:42px 40px 46px}
+.regards .one{background:var(--blanc)}
+.regards .two{background:var(--teal-pale);box-shadow:inset 4px 0 0 var(--vert)}
+.regards .k{font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;margin-bottom:22px;display:flex;align-items:center;gap:12px}
+.regards .k::before{content:"";width:9px;height:9px;border-radius:50%}
+.regards .one .k{color:var(--encre-soft)}
+.regards .one .k::before{background:var(--trait-fort)}
+.regards .two .k{color:var(--teal-deep)}
+.regards .two .k::before{background:var(--teal)}
+.regards .s{font-size:22px;font-weight:600;line-height:1.4;letter-spacing:-.01em;color:var(--charbon)}
+@media(max-width:860px){.regards{grid-template-columns:1fr}.regards .s{font-size:19px}}
+
+/* faits */
+.facts{border-top:1px solid var(--trait);border-bottom:1px solid var(--trait)}
+.facts .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.facts .f{padding:46px 30px;border-right:1px solid var(--trait)}
+.facts .f:last-child{border-right:none}
+.facts .f .n{font-size:38px;font-weight:800;letter-spacing:-.02em;color:var(--charbon);line-height:1}
+.facts .f .n s{text-decoration:none;color:var(--teal)}
+.facts .f .l{font-size:13px;font-weight:600;letter-spacing:.03em;color:var(--encre-soft);margin-top:12px;line-height:1.45}
+@media(max-width:860px){.facts .wrap{grid-template-columns:1fr 1fr}.facts .f{border-bottom:1px solid var(--trait)}.facts .f:nth-child(2n){border-right:none}.facts .f:nth-child(n+3){border-bottom:none}.facts .f .n{font-size:30px}}
+
+/* duo */
+.duo{display:grid;grid-template-columns:1fr 1fr}
+.duo > a{display:block;padding:62px 50px 62px 0}
+.duo > a:last-child{padding:62px 0 62px 50px;border-left:1px solid var(--trait)}
+.duo .k{font-size:11.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--teal);margin-bottom:18px;display:flex;gap:12px}
+.duo .k::before{font-weight:800;color:var(--trait-fort)}
+.duo .a4::before{content:"04"}
+.duo .a5::before{content:"05"}
+.duo h3{font-size:26px;font-weight:800;letter-spacing:-.01em;color:var(--charbon);margin-bottom:14px}
+.duo p{font-size:16px;line-height:1.65;color:var(--encre-soft);max-width:40ch;margin-bottom:22px}
+.duo .arrow{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--charbon);border-bottom:2px solid var(--vert);padding-bottom:4px}
+.duo > a:hover h3{color:var(--teal)}
+@media(max-width:860px){.duo{grid-template-columns:1fr}.duo>a,.duo>a:last-child{padding:46px 0;border-left:none;border-top:1px solid var(--trait)}.duo>a:first-child{border-top:none}}
 
 /* CTA final */
-.final{background:var(--charbon);color:#fff;padding:90px 0;text-align:center;position:relative}
-.final::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);width:64px;height:3px;background:var(--vert)}
-.final h2{font-weight:800;font-size:40px;line-height:1.16;letter-spacing:-.02em;color:#fff;max-width:20ch;margin:0 auto 16px}
-.final p{font-size:17px;color:#aebcc0;max-width:54ch;margin:0 auto 36px}
-.final .cta-row{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
-@media(max-width:820px){.final{padding:60px 0}.final h2{font-size:29px}}
+.final{background:var(--charbon);color:#fff;padding:94px 0}
+.final-grid{display:grid;grid-template-columns:1.35fr 1fr;gap:60px;align-items:end}
+.final .mark{color:var(--vert);margin-bottom:24px}
+.final .mark::before{content:"—";color:#3a4f55;font-weight:800}
+.final h2{font-size:clamp(28px,3.3vw,43px);font-weight:800;line-height:1.1;letter-spacing:-.022em;color:#fff;max-width:18ch}
+.final p{font-size:16px;color:#9fb0b5;line-height:1.7;margin-top:20px;max-width:46ch}
+.final .act{display:flex;flex-direction:column;gap:14px;align-items:stretch}
+.final .act .btn{text-align:center}
+@media(max-width:860px){.final{padding:58px 0}.final-grid{grid-template-columns:1fr;gap:34px;align-items:start}}
 
-/* FOOTER */
-footer{background:var(--charbon-deep);color:#839599;padding:46px 0;font-size:13.5px;line-height:1.7}
-.foot-in{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}
-footer .brand-f{font-size:21px;font-weight:800;color:#fff;letter-spacing:.04em;margin-bottom:8px}
-footer a{color:#aebcc0}
-.note{max-width:1140px;margin:14px auto 0;padding:14px 40px 0;border-top:1px solid #20353a;color:#5f7378;font-size:12.5px}
+/* footer */
+footer{background:var(--charbon-deep);color:#8da0a5;padding:50px 0 36px;font-size:13.5px;line-height:1.7}
+.foot-in{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
+footer .wm{font-size:20px;font-weight:800;letter-spacing:.06em;color:#fff}
+footer .wm i{font-style:normal;color:var(--teal)}
+footer .ft-h{font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#fff;margin-bottom:12px}
+.foot-note{margin-top:34px;padding-top:22px;border-top:1px solid #213338;font-size:12px;color:#647c81;display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.foot-note a:hover{color:#aebec2}
+@media(max-width:860px){.foot-in{grid-template-columns:1fr;gap:26px}}
 </style>
 </head>
 <body>
 
-<nav>
-  <div class="wrap nav-in">
-    <div class="brand">IDE<span>NAT</span></div>
+<!-- MASTHEAD + NAV -->
+<header class="masthead">
+  <div class="wrap mh-top">
+    <div class="mh-name">Institut de naturothérapie clinique</div>
+    <div>Fondé en 1982 <span class="dot">·</span> <span class="mh-hide">Faculté de médecine de Bobigny <span class="dot">·</span> </span>Réservé aux soignants D.E.</div>
+  </div>
+  <nav><div class="wrap nav-in">
+    <div class="brand">
+      <span class="wm">IDE<i>NAT</i></span>
+      <span class="tag">Naturothérapie clinique</span>
+    </div>
     <div class="nav-links">
       <a href="#">La formation</a>
       <a href="#">Le programme</a>
@@ -120,97 +181,133 @@ footer a{color:#aebcc0}
       <a href="#">La filiation</a>
     </div>
     <a href="#" class="btn btn-fill">Candidater</a>
-  </div>
-</nav>
-
-<header class="hero">
-  <span class="ph-note">Image d'archive DUMENAT / amphi — en attente IDENAT</span>
-  <div class="wrap">
-    <div class="filiation"><b>1982</b> · Continuation directe du DUMENAT · Faculté de médecine de Bobigny</div>
-    <h1>La naturothérapie clinique, enseignée aux soignants depuis 1982.</h1>
-    <p class="lede">Une lecture des déterminants du terrain, en appui du suivi médical — réservée aux professionnels de santé diplômés d'État.</p>
-    <div class="cta-row">
-      <a href="#" class="btn btn-fill">Candidater</a>
-      <a href="#" class="link-arrow">Découvrir la formation →</a>
-    </div>
-  </div>
+  </div></nav>
 </header>
 
-<section class="monument">
-  <div class="wrap">
-    <div class="over">Faculté de médecine de Bobigny · Université Paris 13</div>
-    <div class="year">1982</div>
-    <div class="filet"></div>
-    <p class="cap">Année de fondation de l'enseignement de la naturothérapie, sous l'impulsion du professeur Cornillot. <span class="teal">IDENAT en assure la continuation directe.</span></p>
+<!-- HERO -->
+<section class="hero"><div class="wrap">
+  <div class="mark num">L'école</div>
+  <div class="eyebrow">Depuis 1982 <span class="dot" style="color:var(--vert)">·</span> Dans la filiation du DUMENAT — <b>Faculté de médecine de Bobigny</b></div>
+  <h1>La naturothérapie clinique, enseignée aux soignants depuis <em>1982</em>.</h1>
+  <p class="lede">Une lecture des déterminants du terrain, <b>en appui du suivi médical</b>. Réservée aux professionnels de santé diplômés d'État.</p>
+  <div class="cta-row">
+    <a href="#" class="btn btn-line">Candidater</a>
+    <a href="#" class="arrow">Découvrir la formation →</a>
   </div>
-</section>
+  <div class="coda">
+    <div class="q">La méthode</div>
+    <p>On n'apprend pas une médecine de plus. <b>On apprend à regarder autrement.</b></p>
+  </div>
+</div></section>
 
-<section class="block">
-  <div class="wrap split">
+<!-- MONUMENT 1982 -->
+<section class="mono"><div class="wrap">
+  <div class="mark num">La lignée</div>
+  <div class="mono-grid">
+    <div class="yr">1982</div>
+    <div class="src">Naissance de l'enseignement de la naturothérapie au DUMENAT.<span class="src-long"> Département Universitaire des Médecines Naturelles, Faculté de médecine de Bobigny, Université Paris 13.</span></div>
+    <div class="cont">
+      <div class="c1">IDENAT n'invente rien : <b>il continue.</b></div>
+      <div class="c2">L'institut poursuit cet enseignement, réservé aux soignants déjà réglementés.</div>
+    </div>
+  </div>
+</div></section>
+
+<!-- DISTINCTION -->
+<section class="ed distinction"><div class="wrap">
+  <div class="mark num">La distinction</div>
+  <h2>Une discipline clinique, réservée aux soignants.</h2>
+  <div class="split2">
     <div>
-      <div class="eyebrow">La distinction</div>
-      <h2>Une discipline clinique, pas une pratique de plus.</h2>
-    </div>
-    <div class="contrast">
-      <p>À IDENAT, des <strong>professionnels de santé diplômés d'État</strong> apprennent à lire les déterminants du terrain où la maladie s'installe, en appui du suivi médical.</p>
-      <p>La <strong>naturopathie</strong>, elle, reste ouverte à tout public. IDENAT réserve la naturothérapie aux soignants déjà réglementés qui complètent leur exercice.</p>
-    </div>
-  </div>
-</section>
-
-<section class="block facts">
-  <div class="wrap facts-grid">
-    <div class="fact"><div class="n">1982</div><div class="l">Dans la filiation du DUMENAT</div></div>
-    <div class="fact"><div class="n">480 h</div><div class="l">De formation clinique, sur trois ans</div></div>
-    <div class="fact"><div class="n">D.E.</div><div class="l">Réservé aux soignants diplômés d'État</div></div>
-  </div>
-</section>
-
-<section style="padding:0">
-  <div class="wrap">
-    <div class="duo">
-      <div>
-        <h3>Le programme</h3>
-        <p>Trois années pour ajouter une lecture du terrain à sa pratique : changer de regard, comprendre les déséquilibres, accompagner en clinique.</p>
-        <a href="#" class="link-arrow">Voir le programme →</a>
-      </div>
-      <div>
-        <h3>Le corps enseignant</h3>
-        <p>Des soignants enseignent à des soignants. Chaque intervenant engage un titre réel et une responsabilité professionnelle.</p>
-        <a href="#" class="link-arrow">Le corps enseignant →</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="final">
-  <div class="wrap">
-    <h2>Voir ce qu'un seul traitement ne règle pas. Savoir où agir.</h2>
-    <p>Prochaine session en octobre 2026. Formation en présentiel à Paris et en visio interactive, réservée aux professionnels de santé diplômés d'État.</p>
-    <div class="cta-row">
-      <a href="#" class="btn btn-vert">Candidater</a>
-      <a href="#" class="btn btn-ghost">Recevoir le programme</a>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <div class="wrap foot-in">
-    <div>
-      <div class="brand-f">IDE<span style="color:var(--teal-clair)">NAT</span></div>
-      <div>Institut de naturothérapie clinique · Paris</div>
+      <div class="k">La naturopathie</div>
+      <h3>Ouverte à tous</h3>
+      <p>Une discipline sans prérequis de formation en santé, accessible à tout public.</p>
     </div>
     <div>
-      <div style="color:#fff;font-weight:500;margin-bottom:6px">Contact</div>
-      <div>contact@idenat.fr · 07 82 86 38 31</div>
-    </div>
-    <div>
-      <div style="color:#fff;font-weight:500;margin-bottom:6px">Cadre</div>
-      <div>Formation réservée aux soignants D.E.<br>En appui du suivi médical.</div>
+      <div class="k on">La naturothérapie clinique</div>
+      <h3>Réservée aux soignants</h3>
+      <p><b>IDENAT réserve la naturothérapie aux professionnels de santé diplômés d'État</b>, qui l'ajoutent à un exercice déjà réglementé — en appui du suivi médical.</p>
     </div>
   </div>
-  <div class="note">Dans la continuation du DUMENAT — Département Universitaire des Médecines Naturelles, Faculté de médecine de Bobigny (Université Paris 13), 1982.</div>
-</footer>
+</div></section>
+
+<!-- SECOND REGARD -->
+<section class="ed method"><div class="wrap">
+  <div class="mark num">La méthode</div>
+  <h2>Le second regard.</h2>
+  <p class="sub">Là où le suivi médical agit, IDENAT forme les soignants à lire ce qui entretient le déséquilibre.</p>
+  <div class="regards">
+    <div class="one">
+      <div class="k">Premier regard</div>
+      <div class="s">Le suivi médical agit sur la maladie.</div>
+    </div>
+    <div class="two">
+      <div class="k">Second regard</div>
+      <div class="s">IDENAT forme les soignants à lire le terrain où la maladie s'installe.</div>
+    </div>
+  </div>
+</div></section>
+
+<!-- FAITS -->
+<section class="facts"><div class="wrap">
+  <div class="f"><div class="n">1982</div><div class="l">Dans la filiation du DUMENAT</div></div>
+  <div class="f"><div class="n">480 h</div><div class="l">De formation clinique</div></div>
+  <div class="f"><div class="n">3 ans</div><div class="l">En présentiel et visio interactive</div></div>
+  <div class="f"><div class="n"><s>D.E.</s></div><div class="l">Réservé aux soignants diplômés d'État</div></div>
+</div></section>
+
+<!-- DUO -->
+<section style="padding:0"><div class="wrap"><div class="duo">
+  <a href="#">
+    <div class="k a4">Le programme</div>
+    <h3>Trois années pour changer de regard</h3>
+    <p>Ajouter une lecture du terrain à sa pratique : comprendre les déséquilibres, accompagner en clinique, orienter.</p>
+    <span class="arrow">Voir le programme →</span>
+  </a>
+  <a href="#">
+    <div class="k a5">Le corps enseignant</div>
+    <h3>Des soignants enseignent aux soignants</h3>
+    <p>Chaque intervenant engage un titre réel et une responsabilité professionnelle. Les formateurs enseignent ; ils ne se substituent pas au soin.</p>
+    <span class="arrow">Le corps enseignant →</span>
+  </a>
+</div></div></section>
+
+<!-- CTA FINAL -->
+<section class="final"><div class="wrap">
+  <div class="final-grid">
+    <div>
+      <div class="mark">Candidater</div>
+      <h2>Ajouter une lecture du terrain à votre exercice.</h2>
+      <p>Prochaine session en octobre 2026. Une procédure de candidature, réservée aux professionnels de santé diplômés d'État — en appui du suivi médical.</p>
+    </div>
+    <div class="act">
+      <a href="#" class="btn btn-fill">Candidater</a>
+      <a href="#" class="btn btn-line-w">Recevoir le programme</a>
+    </div>
+  </div>
+</div></section>
+
+<!-- FOOTER -->
+<footer><div class="wrap">
+  <div class="foot-in">
+    <div>
+      <div class="wm">IDE<i>NAT</i></div>
+      <div style="margin-top:10px">Institut de naturothérapie clinique · Paris</div>
+    </div>
+    <div>
+      <div class="ft-h">Contact</div>
+      <div>contact@idenat.fr<br>07 82 86 38 31</div>
+    </div>
+    <div>
+      <div class="ft-h">Cadre</div>
+      <div>Réservé aux soignants D.E.<br>En appui du suivi médical.</div>
+    </div>
+  </div>
+  <div class="foot-note">
+    <span>Dans la continuation du DUMENAT — Faculté de médecine de Bobigny (Université Paris 13), 1982.</span>
+    <span><a href="#">Mentions légales</a> · <a href="#">Confidentialité</a> · <a href="#">Cookies</a></span>
+  </div>
+</div></footer>
 
 </body>
 </html>
